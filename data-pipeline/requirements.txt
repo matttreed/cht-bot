@@ -1,0 +1,6 @@
+weaviate-client
+pytube
+yt-dlp
+pafy
+git+https://github.com/openai/whisper.git
+torch

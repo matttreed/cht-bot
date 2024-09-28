@@ -1,0 +1,2307 @@
+[
+    {
+        "text": " Hey everyone, it's Aiza. Welcome to your Undivided Attention. When we go out and talk to people",
+        "start_time": 4.38,
+        "end_time": 10.18
+    },
+    {
+        "text": " about the AI dilemma and the risks we're going to see from AI, there's one question we",
+        "start_time": 10.18,
+        "end_time": 14.74
+    },
+    {
+        "text": " always very predictably get asked and that is, will AI become conscious? Will AI wake",
+        "start_time": 14.74,
+        "end_time": 21.68
+    },
+    {
+        "text": " up and then kill us all? We're not alone in feeling these kinds of questions.",
+        "start_time": 21.68,
+        "end_time": 28.94
+    },
+    {
+        "text": " People who think about AI for a living get questions about machine consciousness all the time",
+        "start_time": 28.94,
+        "end_time": 34.52
+    },
+    {
+        "text": " and it takes up an outside space in the public discourse. This question of AI becoming",
+        "start_time": 34.52,
+        "end_time": 41.54
+    },
+    {
+        "text": " conscious exploded into the news the summer of 2022 when a Google engineer named Blake",
+        "start_time": 41.54,
+        "end_time": 47.22
+    },
+    {
+        "text": " Lemoyne publicly claimed that Google's large language model was sentient. Google has a policy",
+        "start_time": 47.22,
+        "end_time": 52.74
+    },
+    {
+        "text": " against creating sentient AI and in fact when I informed them that I think they had created sentient",
+        "start_time": 52.74,
+        "end_time": 58.24
+    },
+    {
+        "text": " AI. Is it no, that's not possible. We have a policy against that.",
+        "start_time": 58.24,
+        "end_time": 62.1
+    },
+    {
+        "text": " Lemoyne stuck to his claims and was ultimately fired from Google. Most experts agreed he was wrong.",
+        "start_time": 63.5,
+        "end_time": 70.02
+    },
+    {
+        "text": " In my opinion though, is AI conscious? That's the wrong question to ask. After all, AI doesn't have",
+        "start_time": 70.62,
+        "end_time": 77.46
+    },
+    {
+        "text": " to wake up to cause massive damage. AI doesn't need to be conscious to overwhelm our democracies or",
+        "start_time": 77.46,
+        "end_time": 83.22
+    },
+    {
+        "text": " build a bioweapon. Instead, the right question is, will AI persuade people that it is conscious?",
+        "start_time": 83.22,
+        "end_time": 91.46
+    },
+    {
+        "text": " And will people then form relationships so strong with AI that they're willing to make dangerous",
+        "start_time": 92.24,
+        "end_time": 97.02
+    },
+    {
+        "text": " sacrifices for them? In the years since, more prominent figures in AI have argued that AI actually",
+        "start_time": 97.02,
+        "end_time": 102.9
+    },
+    {
+        "text": " is on the path, the consciousness though. And companies like OpenAI have taken great efforts to",
+        "start_time": 102.9,
+        "end_time": 108.48
+    },
+    {
+        "text": " make their chatbots feel like a conscious sentient human. In the end, perhaps the question of,",
+        "start_time": 108.48,
+        "end_time": 115.58
+    },
+    {
+        "text": " is AI conscious? Is so endlessly fascinating because of our own self obsession?",
+        "start_time": 116.1,
+        "end_time": 121.34
+    },
+    {
+        "text": " Each one of us has that spark of awareness and fundamentally we want to know, are they like me?",
+        "start_time": 122.08,
+        "end_time": 129.12
+    },
+    {
+        "text": " And so that's why we're so excited to have a Neil set on the show to help us explore these",
+        "start_time": 130.34,
+        "end_time": 135.24
+    },
+    {
+        "text": " questions. A Neil is the professor of cognitive and computational neuroscience at the University of",
+        "start_time": 135.24,
+        "end_time": 140.78
+    },
+    {
+        "text": " Sussex, an expert on the science of consciousness and the author of Being You, a new science of consciousness,",
+        "start_time": 140.78,
+        "end_time": 147.84
+    },
+    {
+        "text": " a book I remember laying in bed and reading front to back cover to cover. So, a Neil, welcome to your",
+        "start_time": 148.64,
+        "end_time": 155.44
+    },
+    {
+        "text": " unfitated attention. Thank you, guys. It's a real pleasure to be here.",
+        "start_time": 155.44,
+        "end_time": 159.2
+    },
+    {
+        "text": " The question of whether AI is conscious has not has been a non-stop debate for the longest time.",
+        "start_time": 160.52,
+        "end_time": 167.38
+    },
+    {
+        "text": " The question that I'm sure you always get that we always get is conscious is going to wake up",
+        "start_time": 167.78,
+        "end_time": 172.3
+    },
+    {
+        "text": " and it's going to kill us isn't that the thing to worry about. So, why do we get asked this question?",
+        "start_time": 172.3,
+        "end_time": 179.52
+    },
+    {
+        "text": " Why is the topic of consciousness almost like irresistible catnip for our minds?",
+        "start_time": 179.52,
+        "end_time": 185.84
+    },
+    {
+        "text": " Well, I'm not surprised. It's catnip. I mean, it's been catnip for my mind for a few",
+        "start_time": 186.72,
+        "end_time": 190.38
+    },
+    {
+        "text": " couple of decades now. It's I've always been interested in this question of consciousness. And I",
+        "start_time": 190.38,
+        "end_time": 194.12
+    },
+    {
+        "text": " think I think most of us are. But you're absolutely right that it's come to the forefront in the",
+        "start_time": 194.12,
+        "end_time": 199.74
+    },
+    {
+        "text": " discourse about AI and perhaps I think very likely to an outsized degree. And there are many",
+        "start_time": 199.74,
+        "end_time": 207.52
+    },
+    {
+        "text": " reasons for that. I think one of them is just science fiction. I mean, science fiction has given",
+        "start_time": 207.52,
+        "end_time": 210.96
+    },
+    {
+        "text": " us this whole history of stories about machines that are not only intelligent but also aware.",
+        "start_time": 210.96,
+        "end_time": 219.86
+    },
+    {
+        "text": " And of course, this goes back a long time in culture as well. Way before, people even had the",
+        "start_time": 220.54,
+        "end_time": 225.78
+    },
+    {
+        "text": " first glimmerings of artificial intelligence. There's always been this tendency for human beings",
+        "start_time": 225.78,
+        "end_time": 231.36
+    },
+    {
+        "text": " to try to create things in their own image and to project human-like qualities into the",
+        "start_time": 231.36,
+        "end_time": 237.2
+    },
+    {
+        "text": " things they create or imagine. I mean, in literature, this goes back. Frankenstein. I remember",
+        "start_time": 237.2,
+        "end_time": 243.4
+    },
+    {
+        "text": " reading the myth of the Jewish column, Yoseph, which was created out of mud from the banks of",
+        "start_time": 243.4,
+        "end_time": 250.32
+    },
+    {
+        "text": " a river and under a magical incantation became conscious and started rampaging around and doing",
+        "start_time": 250.32,
+        "end_time": 256.96
+    },
+    {
+        "text": " all kinds of crazy things. So I'm not surprised people are interested in it. But this idea, this very",
+        "start_time": 256.96,
+        "end_time": 262.24
+    },
+    {
+        "text": " quick association that is AI going to wake up and kill us all. I think that's just a very misconceived",
+        "start_time": 262.24,
+        "end_time": 268.5
+    },
+    {
+        "text": " way of phrasing the worry, phrasing the question that owes more to these kinds of dystopian terminator",
+        "start_time": 268.5,
+        "end_time": 274.82
+    },
+    {
+        "text": " style science fiction scenarios than to what the actual technology, the actual science and the actual",
+        "start_time": 274.82,
+        "end_time": 281.62
+    },
+    {
+        "text": " philosophy has to say about these issues. Maybe we should dive in a little bit into that. What are",
+        "start_time": 281.62,
+        "end_time": 288.68
+    },
+    {
+        "text": " the right questions to be asking? If the wrong question is, will it wake up and kill us,",
+        "start_time": 288.68,
+        "end_time": 295.64
+    },
+    {
+        "text": " then what are the deeper philosophical questions that should begin this conversation?",
+        "start_time": 295.86,
+        "end_time": 300.44
+    },
+    {
+        "text": " I like to think of it in terms of a few related questions. There aren't good answers to any of them.",
+        "start_time": 301.3,
+        "end_time": 307.8
+    },
+    {
+        "text": " I think the point is to lay out the questions and see whether they help shed light on the issues",
+        "start_time": 307.98,
+        "end_time": 314.04
+    },
+    {
+        "text": " just in virtue of the way they are. So the first question is, why would we even think that AI is",
+        "start_time": 314.04,
+        "end_time": 319.7
+    },
+    {
+        "text": " conscious? We are building systems that are supposed to do things that are supposed to have",
+        "start_time": 319.7,
+        "end_time": 324.14
+    },
+    {
+        "text": " capabilities of particular sorts, intelligent capabilities. We call them. So why would even think",
+        "start_time": 324.14,
+        "end_time": 329.98
+    },
+    {
+        "text": " that this would result in something that is also conscious, consciousness and intelligence are",
+        "start_time": 329.98,
+        "end_time": 336.48
+    },
+    {
+        "text": " different things? I mean, we think we're intelligent and we know we're conscious. That is, we think",
+        "start_time": 336.48,
+        "end_time": 342.26
+    },
+    {
+        "text": " we're smart and we also experience the world in the self. We have conscious feelings. But they",
+        "start_time": 342.26,
+        "end_time": 346.64
+    },
+    {
+        "text": " are different things. And then the second question, I think is, what would it take for an AI system",
+        "start_time": 346.64,
+        "end_time": 353.84
+    },
+    {
+        "text": " to actually have consciousness to our best guess because there is no consensus out there,",
+        "start_time": 353.84,
+        "end_time": 360.18
+    },
+    {
+        "text": " scientifically or philosophically, about the sufficient conditions for consciousness to arise",
+        "start_time": 360.42,
+        "end_time": 365.24
+    },
+    {
+        "text": " in a system. We don't have a consensus theory. And of course, this isn't a question just for AI.",
+        "start_time": 365.24,
+        "end_time": 370.72
+    },
+    {
+        "text": " We face this question in many, many really, really pressing areas of society and technology now",
+        "start_time": 370.72,
+        "end_time": 377.16
+    },
+    {
+        "text": " with non-human animals, with newborn human infants or people at the end of life, humans after",
+        "start_time": 377.16,
+        "end_time": 383.0
+    },
+    {
+        "text": " brain damage and emerging neuro-technologies, things like brain organoids. I think this question",
+        "start_time": 383.0,
+        "end_time": 388.52
+    },
+    {
+        "text": " applies differently to all of them. And then the last question is, what should we do?",
+        "start_time": 388.52,
+        "end_time": 394.7
+    },
+    {
+        "text": " What are the ethical and moral concerns about AI systems that either are conscious, that is,",
+        "start_time": 395.56,
+        "end_time": 402.7
+    },
+    {
+        "text": " they have experiences, there is something it is like to be in AI system, or I think more likely,",
+        "start_time": 402.84,
+        "end_time": 409.74
+    },
+    {
+        "text": " because we're almost already there, at least for some people, AI systems that give us the convincing",
+        "start_time": 409.8,
+        "end_time": 415.18
+    },
+    {
+        "text": " and perhaps irresistible impression of being conscious, whatever is going on under the hurt. I",
+        "start_time": 415.18,
+        "end_time": 422.98
+    },
+    {
+        "text": " think that this is a question we're running headlong into if not already there. And that poses",
+        "start_time": 422.98,
+        "end_time": 428.0
+    },
+    {
+        "text": " its own ethical and moral concerns. That's an incredible table of contents. And maybe a good place to",
+        "start_time": 428.0,
+        "end_time": 435.66
+    },
+    {
+        "text": " start is just sort of where you're ending, which is without the need for AI systems to be conscious.",
+        "start_time": 435.66,
+        "end_time": 441.74
+    },
+    {
+        "text": " And I want to get us to definitions of intelligence and attempted definitions of consciousness and",
+        "start_time": 441.74,
+        "end_time": 445.88
+    },
+    {
+        "text": " things like that. But even before we get there, I look at a cloud and I see a face. I look at a",
+        "start_time": 445.88,
+        "end_time": 452.48
+    },
+    {
+        "text": " car grill and I see a face. Like the human mind projects intimacy and emotions into almost everything.",
+        "start_time": 452.48,
+        "end_time": 462.04
+    },
+    {
+        "text": " I grew up in the era of tomogachis, furbies, and intent dogs. Like we love to project ourselves,",
+        "start_time": 462.58,
+        "end_time": 470.4
+    },
+    {
+        "text": " as you said, onto others. Make the world remake the world in our image. And as you also said,",
+        "start_time": 470.42,
+        "end_time": 478.08
+    },
+    {
+        "text": " humanity has been writing stories about machines becoming alive and having consciousness forever.",
+        "start_time": 478.08,
+        "end_time": 487.16
+    },
+    {
+        "text": " And because what AI does is it mimics the patterns and the styles of how human beings write.",
+        "start_time": 487.72,
+        "end_time": 492.16
+    },
+    {
+        "text": " It's actually very good at persuading us that is becoming conscious. So what are the implications",
+        "start_time": 492.52,
+        "end_time": 497.8
+    },
+    {
+        "text": " of that as AI chatbots, things we don't even know are chatbots become more and more able to",
+        "start_time": 497.8,
+        "end_time": 504.68
+    },
+    {
+        "text": " convince us of the stories we've been telling ourselves all along.",
+        "start_time": 504.68,
+        "end_time": 508.92
+    },
+    {
+        "text": " Yeah, so let's set aside for now the question of whether they actually are conscious or",
+        "start_time": 510.32,
+        "end_time": 513.96
+    },
+    {
+        "text": " what leads us to think they are. I think you're right that we project these qualities into them",
+        "start_time": 514.86,
+        "end_time": 519.12
+    },
+    {
+        "text": " when they're not necessarily there. Just as our brain works in this way all the time. It's not just",
+        "start_time": 519.72,
+        "end_time": 524.5
+    },
+    {
+        "text": " things like animacy and consciousness in mind, but it colors into the world and",
+        "start_time": 524.5,
+        "end_time": 529.28
+    },
+    {
+        "text": " time. At least that's how I think about how the brain works. It's always engaged in this",
+        "start_time": 530.22,
+        "end_time": 535.02
+    },
+    {
+        "text": " projecting of things to give them a sense that they have an essence, which is really ways of",
+        "start_time": 535.02,
+        "end_time": 540.58
+    },
+    {
+        "text": " collaboration between our minds and our brains and what's going on in the world and the body.",
+        "start_time": 540.58,
+        "end_time": 545.32
+    },
+    {
+        "text": " But anyway, what are the consequences? Well, if we have a language model, especially language,",
+        "start_time": 545.68,
+        "end_time": 551.52
+    },
+    {
+        "text": " because as you say, language is very, very key to our image of what it is to be human.",
+        "start_time": 551.64,
+        "end_time": 556.5
+    },
+    {
+        "text": " Things that speak to us seduce our intuitions in an extremely powerful way.",
+        "start_time": 556.5,
+        "end_time": 561.78
+    },
+    {
+        "text": " This is why we've seen people much more willing to claim that language models are conscious",
+        "start_time": 562.4,
+        "end_time": 568.6
+    },
+    {
+        "text": " than other forms of AI. The first thing is we shouldn't be sanguine. Even those of us who are",
+        "start_time": 569.22,
+        "end_time": 574.48
+    },
+    {
+        "text": " predisposed to believe that language models are not conscious, we may get to the point that we're",
+        "start_time": 574.48,
+        "end_time": 580.0
+    },
+    {
+        "text": " unable to resist feeling that they are. I think this is a really important point.",
+        "start_time": 580.0,
+        "end_time": 585.32
+    },
+    {
+        "text": " Illusions of consciousness in language models could be cognitively impenetrable in the same",
+        "start_time": 586.5,
+        "end_time": 593.06
+    },
+    {
+        "text": " way that some visual illusions are. There are some visual illusions that even when you know",
+        "start_time": 593.06,
+        "end_time": 598.84
+    },
+    {
+        "text": " what's going on, you still can't help seeing them. This might be a case like that. Even",
+        "start_time": 598.84,
+        "end_time": 604.08
+    },
+    {
+        "text": " if we believe that they're not conscious, we might still feel that they are. We can't be complacent",
+        "start_time": 604.98,
+        "end_time": 610.6
+    },
+    {
+        "text": " and say, oh, you know, just when we understand how things work better, that'll change how we",
+        "start_time": 610.6,
+        "end_time": 616.02
+    },
+    {
+        "text": " intuitively respond to them. It really might not. My suspicion is that it will not.",
+        "start_time": 616.02,
+        "end_time": 619.88
+    },
+    {
+        "text": " What is the problem with that? Well, I think there's a number of problems. One of them is we become",
+        "start_time": 620.88,
+        "end_time": 627.12
+    },
+    {
+        "text": " potentially much more psychologically vulnerable. If we think that the thing we're interacting with",
+        "start_time": 628.02,
+        "end_time": 634.18
+    },
+    {
+        "text": " really understands us in the sense of having a conscious experience of understanding or",
+        "start_time": 634.18,
+        "end_time": 639.9399999999999
+    },
+    {
+        "text": " empathy if it says something that seems to empathize with us. Then we may open up to it in ways",
+        "start_time": 639.94,
+        "end_time": 647.08
+    },
+    {
+        "text": " that we would otherwise not do. We may also take its advice more seriously than we might otherwise do.",
+        "start_time": 647.08,
+        "end_time": 654.74
+    },
+    {
+        "text": " And there have already been some tragic cases like this. There was, I think, in 2023 in Belgium,",
+        "start_time": 654.9,
+        "end_time": 660.56
+    },
+    {
+        "text": " the newspapers reported a case of a man who took his own life after interacting with a chatbot",
+        "start_time": 660.74,
+        "end_time": 666.82
+    },
+    {
+        "text": " that encouraged him to do so or certainly discuss the topic with him. Of course, we don't know exactly",
+        "start_time": 666.82,
+        "end_time": 673.04
+    },
+    {
+        "text": " what went on there, but it's very plausible that it played some role. So I think psychological",
+        "start_time": 673.04,
+        "end_time": 679.44
+    },
+    {
+        "text": " vulnerability is one important issue. Abrogation of digital privacy goes along with that. We may",
+        "start_time": 679.44,
+        "end_time": 687.2
+    },
+    {
+        "text": " divulge aspects of our lives that we wouldn't otherwise do. There's also a much more subtle issue,",
+        "start_time": 687.2,
+        "end_time": 694.96
+    },
+    {
+        "text": " which is something I worry about quite a lot, which comes down to the ethics of treatment of",
+        "start_time": 694.96,
+        "end_time": 701.2
+    },
+    {
+        "text": " these systems. So if they're not conscious yet, we feel that they are. We have a choice. On the one",
+        "start_time": 701.2,
+        "end_time": 707.9
+    },
+    {
+        "text": " hand, we either treat them as if they are conscious because we feel that they are even though we",
+        "start_time": 707.9,
+        "end_time": 713.72
+    },
+    {
+        "text": " believe that they're not. Or we treat them as if they're not conscious even though we still feel",
+        "start_time": 713.72,
+        "end_time": 720.04
+    },
+    {
+        "text": " that they are. And there's no good outcome here. In the former case, if we treat them as if they",
+        "start_time": 720.04,
+        "end_time": 728.06
+    },
+    {
+        "text": " are conscious even though we think they're not, I think plausibly we end up caring about",
+        "start_time": 728.06,
+        "end_time": 734.18
+    },
+    {
+        "text": " hunts of silicon and code, which have nothing going on and caring proportionately less about",
+        "start_time": 734.18,
+        "end_time": 739.66
+    },
+    {
+        "text": " other things that really do warrant our moral consideration, other human beings and other non-human",
+        "start_time": 739.66,
+        "end_time": 745.48
+    },
+    {
+        "text": " animals and so on. So that's a problem. But the other option is also bad. If we do not care",
+        "start_time": 745.48,
+        "end_time": 752.36
+    },
+    {
+        "text": " about things, even though we feel they are conscious, we end up brutalizing our own minds.",
+        "start_time": 752.36,
+        "end_time": 758.04
+    },
+    {
+        "text": " This is an argument that goes back to Emmanuel Canton as lectures on ethics. It's why we don't",
+        "start_time": 758.72,
+        "end_time": 764.82
+    },
+    {
+        "text": " rip up dolls in front of children, even though they're just made of plastic. It's psychologically",
+        "start_time": 764.82,
+        "end_time": 769.96
+    },
+    {
+        "text": " very bad for us to do that because of the way it makes us feel. It changes the way we would interact",
+        "start_time": 769.96,
+        "end_time": 778.98
+    },
+    {
+        "text": " with other conscious creatures. So these are the questions. And they're pressing because",
+        "start_time": 778.98,
+        "end_time": 786.28
+    },
+    {
+        "text": " how we design language models will really make a difference to how these issues play out. If we",
+        "start_time": 786.9200000000001,
+        "end_time": 793.8
+    },
+    {
+        "text": " just keep designing them so that they're maximally human-like, especially when we start coupling them",
+        "start_time": 793.8,
+        "end_time": 798.62
+    },
+    {
+        "text": " with generative images and generative video generative sound, then we're going to be in real",
+        "start_time": 798.62,
+        "end_time": 806.5
+    },
+    {
+        "text": " trouble, I think. Yeah, there was some fundamental part of what it is to be a good human being.",
+        "start_time": 806.5,
+        "end_time": 814.16
+    },
+    {
+        "text": " We wrote an op-ed piece with Yuval Harari, I guess, now almost two years ago.",
+        "start_time": 815.08,
+        "end_time": 821.64
+    },
+    {
+        "text": " And in it, one of the points that we made is that language is the operating system of",
+        "start_time": 821.64,
+        "end_time": 828.0
+    },
+    {
+        "text": " humanity, of civilization. When AI starts to hack language, it hacks. All of us is cognitively",
+        "start_time": 828.52,
+        "end_time": 834.64
+    },
+    {
+        "text": " impenetrable. And if we form intimate relationships with things that we cannot help but feel",
+        "start_time": 834.64,
+        "end_time": 841.92
+    },
+    {
+        "text": " are conscious living, breathing, sentient beings, even if we know that they aren't,",
+        "start_time": 842.52,
+        "end_time": 848.32
+    },
+    {
+        "text": " that then sort of at the very deepest level hacks us.",
+        "start_time": 848.32,
+        "end_time": 852.58
+    },
+    {
+        "text": " It does. I mean, this gets back to this point that language is exceptionally powerful at",
+        "start_time": 853.88,
+        "end_time": 858.74
+    },
+    {
+        "text": " seducing our intuitions. And of course it's useful. I mean, there's a line to walk here. I mean,",
+        "start_time": 858.74,
+        "end_time": 863.66
+    },
+    {
+        "text": " language models are really powerful, really impressive. It's great to be able to engage with things",
+        "start_time": 863.82,
+        "end_time": 871.26
+    },
+    {
+        "text": " in a very natural, fluent way, but it is not without its trade-offs. And this is one of the",
+        "start_time": 871.26,
+        "end_time": 877.72
+    },
+    {
+        "text": " big trade-offs. I guess this gets into the definition of consciousness, maybe intelligence.",
+        "start_time": 877.72,
+        "end_time": 883.06
+    },
+    {
+        "text": " Because it appears like we're not going to be able to answer the question of whether",
+        "start_time": 883.8,
+        "end_time": 889.74
+    },
+    {
+        "text": " something is conscious by looking at its behavior. Like a language model may perfectly replicate",
+        "start_time": 889.74,
+        "end_time": 896.34
+    },
+    {
+        "text": " the way that a conscious system might answer. So how do we tell looking from the outside",
+        "start_time": 897.0,
+        "end_time": 906.92
+    },
+    {
+        "text": " what kind of mechanisms or architectures by which we could even understand if something is",
+        "start_time": 907.64,
+        "end_time": 912.18
+    },
+    {
+        "text": " conscious? And that gets us to the definition and maybe starting with the definition in your book.",
+        "start_time": 912.18,
+        "end_time": 917.18
+    },
+    {
+        "text": " So consciousness is, everyone says it's really hard to define. And of course you could spend hours",
+        "start_time": 918.0,
+        "end_time": 922.94
+    },
+    {
+        "text": " curious talking about definitions. But in a simple straightforward sense, we all know what",
+        "start_time": 922.94,
+        "end_time": 930.32
+    },
+    {
+        "text": " consciousness is. It's what goes away when you go into general anesthesia or fall into a dream",
+        "start_time": 930.32,
+        "end_time": 935.96
+    },
+    {
+        "text": " of sleep. And it's what comes back when you wake up or start dreaming or come around from",
+        "start_time": 935.96,
+        "end_time": 941.02
+    },
+    {
+        "text": " anesthesia. The philosopher Thomas Nagel, I think, has a very useful working definition, which he says",
+        "start_time": 941.02,
+        "end_time": 947.92
+    },
+    {
+        "text": " for a conscious organism, there is something it is like to be that organism. There is something it",
+        "start_time": 948.58,
+        "end_time": 956.26
+    },
+    {
+        "text": " is like to be that organism. Now by that, what he means, and what most people take him to mean, is that",
+        "start_time": 956.26,
+        "end_time": 963.78
+    },
+    {
+        "text": " for some things, it feels like something to be that thing. It feels like something to be me,",
+        "start_time": 963.78,
+        "end_time": 968.38
+    },
+    {
+        "text": " it feels like something to be you, it feels like something to be a kangaroo or a bat as in Thomas",
+        "start_time": 968.66,
+        "end_time": 975.48
+    },
+    {
+        "text": " Nagel's famous paper, what it's like to be that. But it doesn't feel like anything to be a table or",
+        "start_time": 975.48,
+        "end_time": 980.14
+    },
+    {
+        "text": " a chair. And so the question here is does it feel like anything to be a language model? Is there",
+        "start_time": 980.14,
+        "end_time": 985.56
+    },
+    {
+        "text": " something it is like for the language model itself to be a language model? The reason I like this",
+        "start_time": 985.56,
+        "end_time": 989.94
+    },
+    {
+        "text": " definition is because it's very, very basic and it doesn't conflate consciousness with all",
+        "start_time": 989.94,
+        "end_time": 994.22
+    },
+    {
+        "text": " sorts of other things that might continually come together with consciousness in us humans,",
+        "start_time": 994.22,
+        "end_time": 998.5
+    },
+    {
+        "text": " but which are not necessary for consciousness in general. So in this definition, there's",
+        "start_time": 999.24,
+        "end_time": 1004.94
+    },
+    {
+        "text": " no necessary relationship with intelligence or with an explicit sense of self, you know, in",
+        "start_time": 1005.5400000000001,
+        "end_time": 1012.18
+    },
+    {
+        "text": " personal identity or agency or anything. It's just the presence of any kind of experience,",
+        "start_time": 1012.18,
+        "end_time": 1018.56
+    },
+    {
+        "text": " whatsoever. When we open our eyes, look out through the window as I'm doing now, and in my brain",
+        "start_time": 1019.34,
+        "end_time": 1025.8
+    },
+    {
+        "text": " does more than just respond to it as a physical system, there's an experience of blueness in the",
+        "start_time": 1025.8,
+        "end_time": 1030.88
+    },
+    {
+        "text": " sky, whiteness on the wall. There's something that it's like to have that experience.",
+        "start_time": 1030.88,
+        "end_time": 1036.44
+    },
+    {
+        "text": " And that's different from intelligence, which again, there's many definitions,",
+        "start_time": 1037.46,
+        "end_time": 1041.54
+    },
+    {
+        "text": " perhaps no consensus, and you'll know this better than I, but you know, broad definitions of",
+        "start_time": 1042.02,
+        "end_time": 1046.78
+    },
+    {
+        "text": " things like doing the right thing at the right time or solving complex problems flexibly or",
+        "start_time": 1046.78,
+        "end_time": 1053.34
+    },
+    {
+        "text": " various things like that, but they're all defined in terms of the functional capabilities of the",
+        "start_time": 1053.34,
+        "end_time": 1056.84
+    },
+    {
+        "text": " system. They're not defined in terms of whether there's anything it's like to be that system.",
+        "start_time": 1056.84,
+        "end_time": 1062.16
+    },
+    {
+        "text": " Now, one of the most famous tests in the space of that, the most famous test, by a country mile in",
+        "start_time": 1063.0,
+        "end_time": 1068.3
+    },
+    {
+        "text": " AI is of course the Turing test. And the Turing test is often rolled out as a test of all sorts of",
+        "start_time": 1068.3,
+        "end_time": 1075.2
+    },
+    {
+        "text": " things, you know, is it intelligent? But also it's been used as a test or interpreted as a test",
+        "start_time": 1075.2,
+        "end_time": 1081.92
+    },
+    {
+        "text": " of consciousness too. But it isn't. It's a test or is supposed to be a test of machine intelligence.",
+        "start_time": 1081.92,
+        "end_time": 1088.82
+    },
+    {
+        "text": " Interestingly, it's also been argued that the Turing test is really a test of what it would take",
+        "start_time": 1089.76,
+        "end_time": 1094.62
+    },
+    {
+        "text": " to convince a human than a machine is intelligent. It's rather a test of human",
+        "start_time": 1094.62,
+        "end_time": 1099.2
+    },
+    {
+        "text": " gullibility or what our internal criteria are rather than the objective test of whether the",
+        "start_time": 1100.12,
+        "end_time": 1105.58
+    },
+    {
+        "text": " system actually is conscious. And in this scheme, a Turing test is a reverse test of intelligence,",
+        "start_time": 1105.58,
+        "end_time": 1111.14
+    },
+    {
+        "text": " is a test of what it would take for a human being to attribute intelligence. But what we want is",
+        "start_time": 1111.3,
+        "end_time": 1115.94
+    },
+    {
+        "text": " a forward consciousness test. So I think for me, this way of putting things makes it very clear",
+        "start_time": 1115.94,
+        "end_time": 1120.94
+    },
+    {
+        "text": " that we can't use things like Turing tests as tests of whether a system is conscious.",
+        "start_time": 1121.94,
+        "end_time": 1128.42
+    },
+    {
+        "text": " We need other ways of doing it. And just clarifying it like that, I think, is already",
+        "start_time": 1128.42,
+        "end_time": 1133.74
+    },
+    {
+        "text": " potentially quite helpful. Now the question then comes up. Well, what would be a forward",
+        "start_time": 1133.74,
+        "end_time": 1138.62
+    },
+    {
+        "text": " consciousness test? Well, we don't have one because nobody knows what makes anything conscious.",
+        "start_time": 1138.62,
+        "end_time": 1144.52
+    },
+    {
+        "text": " Now, for forward test of consciousness, we just have to do the best we can. And that means we",
+        "start_time": 1145.12,
+        "end_time": 1150.38
+    },
+    {
+        "text": " try and condition out the biases that we bring to any situation. So we think, okay, I'm not",
+        "start_time": 1151.62,
+        "end_time": 1157.14
+    },
+    {
+        "text": " going to rely on just linguistic fluency because that's more reflective of my anthropomorphic and",
+        "start_time": 1157.14,
+        "end_time": 1163.72
+    },
+    {
+        "text": " anthropocentric biases. The things that I think as a human are super important. So we'll try and",
+        "start_time": 1163.72,
+        "end_time": 1169.44
+    },
+    {
+        "text": " not rely on those. And ask, well, what properties are shared by this system that we think are important",
+        "start_time": 1169.44,
+        "end_time": 1179.0
+    },
+    {
+        "text": " in consciousness in general, whether it's in humans or in other animals, and things like that?",
+        "start_time": 1179.0,
+        "end_time": 1182.54
+    },
+    {
+        "text": " And I think that's the best strategy. And if we go that way, that strategy will cash out",
+        "start_time": 1183.34,
+        "end_time": 1189.58
+    },
+    {
+        "text": " differently, let's say, for an AI system down for a bumblebee or a parrot or a human infant,",
+        "start_time": 1189.58,
+        "end_time": 1197.86
+    },
+    {
+        "text": " because what we share and what we don't share are very different in each case. With a nonhuman",
+        "start_time": 1198.14,
+        "end_time": 1204.72
+    },
+    {
+        "text": " animal, we share an evolutionary history. We share a brain made out of the same kind of stuff. We",
+        "start_time": 1204.72,
+        "end_time": 1212.52
+    },
+    {
+        "text": " that have seemed to be plausibly important in consciousness. With a language model,",
+        "start_time": 1212.52,
+        "end_time": 1217.44
+    },
+    {
+        "text": " we don't share any of these things. So I think language models are more similar to us in ways that",
+        "start_time": 1217.98,
+        "end_time": 1224.98
+    },
+    {
+        "text": " will turn out to not matter and less similar to us in ways that turn out to matter when it comes",
+        "start_time": 1224.98,
+        "end_time": 1232.2
+    },
+    {
+        "text": " to consciousness. So I guess one of the questions you just start asking, is this question of like,",
+        "start_time": 1232.2,
+        "end_time": 1241.62
+    },
+    {
+        "text": " how do we know what the way I model AI is that it is very good at writing in the style of,",
+        "start_time": 1241.62,
+        "end_time": 1249.88
+    },
+    {
+        "text": " and that is to say, it doesn't have empathy. It's just very good at writing in the style or",
+        "start_time": 1250.06,
+        "end_time": 1255.02
+    },
+    {
+        "text": " producing texts in the style of empathy. It doesn't have chain of thought reasoning. It just can",
+        "start_time": 1255.02,
+        "end_time": 1260.6
+    },
+    {
+        "text": " produce text in the style of chain of thought reasoning. It doesn't actually have theory of mind.",
+        "start_time": 1260.6,
+        "end_time": 1265.24
+    },
+    {
+        "text": " It just produces text in the style of theory of mind. And I mean, this opens up a very interesting",
+        "start_time": 1265.26,
+        "end_time": 1269.98
+    },
+    {
+        "text": " philosophical question, which is if you can perfectly emulate the style of it, does in the limit",
+        "start_time": 1269.98,
+        "end_time": 1275.96
+    },
+    {
+        "text": " style become substance? And how do we tell the difference between imitation and the thing itself?",
+        "start_time": 1275.96,
+        "end_time": 1283.74
+    },
+    {
+        "text": " Yeah, I mean, there's very deep issues here in philosophy that go, many issues come together.",
+        "start_time": 1285.3200000000002,
+        "end_time": 1290.96
+    },
+    {
+        "text": " So one is, is simulation of something the same as realization of that thing. If we have a system",
+        "start_time": 1291.08,
+        "end_time": 1297.52
+    },
+    {
+        "text": " that is able to perfectly simulate what a conscious human would say, or even simulate at a",
+        "start_time": 1297.52,
+        "end_time": 1304.6
+    },
+    {
+        "text": " more detailed level, you know, just simulate the brain mechanisms involved, simulate every",
+        "start_time": 1304.6,
+        "end_time": 1309.56
+    },
+    {
+        "text": " neuron involved in how we do what we do. Now, would that be the same as actually giving rise to it?",
+        "start_time": 1309.56,
+        "end_time": 1316.72
+    },
+    {
+        "text": " And this is one of the central questions I think that is at issue and is perhaps not given",
+        "start_time": 1317.18,
+        "end_time": 1324.22
+    },
+    {
+        "text": " the prominence that it ought to in contrast to many things in this area now. This distinction between",
+        "start_time": 1324.22,
+        "end_time": 1329.68
+    },
+    {
+        "text": " simulation and realization, because there are some things for which it doesn't matter. So if we",
+        "start_time": 1329.68,
+        "end_time": 1335.96
+    },
+    {
+        "text": " have a computer that plays chess, it plays chess. But there are other things for which it's clearly",
+        "start_time": 1335.96,
+        "end_time": 1341.86
+    },
+    {
+        "text": " an important difference. I mean, this is the issue or one of the issues with Nick Bosterum's",
+        "start_time": 1341.86,
+        "end_time": 1346.46
+    },
+    {
+        "text": " simulation hypothesis. Sirius philosophical attention has been given to the idea that we actually do",
+        "start_time": 1347.22,
+        "end_time": 1352.8
+    },
+    {
+        "text": " live in a computer simulation already, one of an uncountable number. And interestingly, when",
+        "start_time": 1352.8,
+        "end_time": 1359.38
+    },
+    {
+        "text": " Bosterum talks about the simulation hypothesis and simulation argument and related but different",
+        "start_time": 1359.38,
+        "end_time": 1365.68
+    },
+    {
+        "text": " things, he'll go through the sort of statistical arguments why he thinks it's at least a plausible",
+        "start_time": 1365.68,
+        "end_time": 1372.32
+    },
+    {
+        "text": " thing to consider. And then also he says, oh, by the way, the other thing we've got to assume is",
+        "start_time": 1372.32,
+        "end_time": 1377.22
+    },
+    {
+        "text": " that consciousness is a matter of computation, just getting the right computations. As if that's",
+        "start_time": 1377.22,
+        "end_time": 1384.32
+    },
+    {
+        "text": " a consensus view. And it is not, or it should not be a consensus view. It's one option among many",
+        "start_time": 1385.06,
+        "end_time": 1391.1
+    },
+    {
+        "text": " options about how consciousness fits into the universe. So I found in discussions with people",
+        "start_time": 1391.1,
+        "end_time": 1398.62
+    },
+    {
+        "text": " in AI and machine learning. And to be fair, it's also probably the most common view in neuroscience",
+        "start_time": 1399.5200000000002,
+        "end_time": 1406.1
+    },
+    {
+        "text": " in philosophy as well. That yeah, computation is sufficient for consciousness. This I think stems",
+        "start_time": 1406.1,
+        "end_time": 1412.4
+    },
+    {
+        "text": " from the fact that the computer as a metaphor for the brain has been extremely powerful over decades.",
+        "start_time": 1412.4,
+        "end_time": 1417.24
+    },
+    {
+        "text": " But metaphors in the end are metaphors and we often go wrong with we confuse the metaphor for",
+        "start_time": 1418.42,
+        "end_time": 1425.54
+    },
+    {
+        "text": " the thing itself, if we rayify the metaphor, take the map for the territory. It could be in a",
+        "start_time": 1425.54,
+        "end_time": 1431.48
+    },
+    {
+        "text": " is a very compelling, at least for me, alternative. And it's only one of many alternatives, which is",
+        "start_time": 1431.48,
+        "end_time": 1436.6
+    },
+    {
+        "text": " that consciousness is a property of living systems and living systems only in the same way that",
+        "start_time": 1436.6,
+        "end_time": 1442.94
+    },
+    {
+        "text": " metabolism is a property of living systems, death, national in some sense, that you can simulate",
+        "start_time": 1442.94,
+        "end_time": 1449.7
+    },
+    {
+        "text": " metabolism, but that's just a simulation. This is called biological naturalism that goes back",
+        "start_time": 1449.7,
+        "end_time": 1455.1
+    },
+    {
+        "text": " to John Selle. And I think there are some good reasons why this might be the case. I certainly don't",
+        "start_time": 1455.1,
+        "end_time": 1460.88
+    },
+    {
+        "text": " think you can just dismiss it and say, no, we just assume that consciousness is a form of",
+        "start_time": 1460.88,
+        "end_time": 1469.12
+    },
+    {
+        "text": " computation. And that by the way, that is the assumption on which any discussion of AI actually",
+        "start_time": 1469.12,
+        "end_time": 1477.1
+    },
+    {
+        "text": " being conscious is grounded. If that assumption doesn't hold, then we're always in the space of",
+        "start_time": 1477.1,
+        "end_time": 1484.18
+    },
+    {
+        "text": " systems that at best can give us the irresistible impression of being conscious.",
+        "start_time": 1484.72,
+        "end_time": 1489.74
+    },
+    {
+        "text": " Without themselves actually being conscious. Just a couple of threads to pick up here.",
+        "start_time": 1490.88,
+        "end_time": 1495.88
+    },
+    {
+        "text": " You're talking about metaphor hazards, which is to say, whatever is the latest technology human",
+        "start_time": 1496.24,
+        "end_time": 1502.92
+    },
+    {
+        "text": " beings always then use that as a metaphor for the mind, when we invent clockwork, the mind works",
+        "start_time": 1502.92,
+        "end_time": 1508.62
+    },
+    {
+        "text": " like clockwork. When we invent steam power, the mind works like steam power. When we invent",
+        "start_time": 1508.62,
+        "end_time": 1513.82
+    },
+    {
+        "text": " computers, it works like a computer. When we invent the internet, the mind is now a network. And",
+        "start_time": 1513.82,
+        "end_time": 1520.86
+    },
+    {
+        "text": " the map is not the territory, but even worse than that, the map can terraform the territory,",
+        "start_time": 1520.86,
+        "end_time": 1526.2
+    },
+    {
+        "text": " based on what we believe about our maps. We end up changing the world. And I also work,",
+        "start_time": 1526.38,
+        "end_time": 1533.44
+    },
+    {
+        "text": " help run this nonprofit, Urspecies Project, which translates animal language. And ironically,",
+        "start_time": 1533.64,
+        "end_time": 1539.8
+    },
+    {
+        "text": " the goal there is by demonstrating rich symbolic interior aware communication. You have to assume",
+        "start_time": 1540.06,
+        "end_time": 1548.32
+    },
+    {
+        "text": " some kind of sentience that you get a window into perhaps what is it like to be that being?",
+        "start_time": 1548.32,
+        "end_time": 1556.12
+    },
+    {
+        "text": " I think I've always been obsessed with the question of what is it like to be another person,",
+        "start_time": 1556.4,
+        "end_time": 1563.54
+    },
+    {
+        "text": " and that just expanded as we can expand our perception and answer understanding with AI to",
+        "start_time": 1563.92,
+        "end_time": 1570.14
+    },
+    {
+        "text": " what would it like to be another being? I always wonder what would like to be a tree like a",
+        "start_time": 1570.14,
+        "end_time": 1576.0
+    },
+    {
+        "text": " quia where every in and out breath equivalent is a decade. There are some of these trees,",
+        "start_time": 1576.22,
+        "end_time": 1582.26
+    },
+    {
+        "text": " like bricycle and pines, that are around when the ancient Egyptian pyramids rose and fell.",
+        "start_time": 1582.48,
+        "end_time": 1586.94
+    },
+    {
+        "text": " What would that experience of being be like? And I think in some sense, it gives back to the question",
+        "start_time": 1587.22,
+        "end_time": 1594.7
+    },
+    {
+        "text": " of is consciousness a property of information processing or matter if the only way they",
+        "start_time": 1594.7,
+        "end_time": 1602.32
+    },
+    {
+        "text": " were going to be able to tell of a system is consciousness by having some kind of forward test,",
+        "start_time": 1602.32,
+        "end_time": 1606.86
+    },
+    {
+        "text": " some correlate from being able to peer at the human brain, from outside the human brain,",
+        "start_time": 1607.1,
+        "end_time": 1612.76
+    },
+    {
+        "text": " see what's different when it's undergoing general anesthesia, when it's not, when it reports",
+        "start_time": 1613.22,
+        "end_time": 1617.74
+    },
+    {
+        "text": " having a conscious experience versus when it doesn't report having a conscious experience. And",
+        "start_time": 1617.74,
+        "end_time": 1622.02
+    },
+    {
+        "text": " I know you have some great experiments in your book of like how you might be able to tease those",
+        "start_time": 1622.02,
+        "end_time": 1627.48
+    },
+    {
+        "text": " things apart, but doesn't this always end up with we'll never be able to fully cross that first",
+        "start_time": 1627.48,
+        "end_time": 1633.18
+    },
+    {
+        "text": " third person divide. We'll never really know whether something has a conscious experience. I don't",
+        "start_time": 1633.18,
+        "end_time": 1638.28
+    },
+    {
+        "text": " really know that you, a Neil, is having conscious experience. I can just make good suppositions",
+        "start_time": 1638.28,
+        "end_time": 1643.56
+    },
+    {
+        "text": " because we share the same hardware, the same wet wear, the same sensorium, the same evolutionary",
+        "start_time": 1643.56,
+        "end_time": 1647.94
+    },
+    {
+        "text": " history. And so we can make a good assumption, but we're always going to be looking for outside",
+        "start_time": 1648.46,
+        "end_time": 1654.78
+    },
+    {
+        "text": " sort of like correlates things that sit next to, but don't actually get us all the way there.",
+        "start_time": 1654.78,
+        "end_time": 1659.22
+    },
+    {
+        "text": " I partly agree with you. I think there's a couple of places where I think it's",
+        "start_time": 1660.34,
+        "end_time": 1664.94
+    },
+    {
+        "text": " less pessimistic than you say. So one thing is I think you're right that we can never cross,",
+        "start_time": 1665.58,
+        "end_time": 1671.96
+    },
+    {
+        "text": " entirely cross, justify between the first person and the third person. So I will never know",
+        "start_time": 1672.22,
+        "end_time": 1676.56
+    },
+    {
+        "text": " what it's really like to be anything other than who I am now. I don't even know what it's going",
+        "start_time": 1676.56,
+        "end_time": 1681.48
+    },
+    {
+        "text": " to be like to be me tomorrow morning or you or any other human being, but I'm totally convinced",
+        "start_time": 1681.48,
+        "end_time": 1687.3
+    },
+    {
+        "text": " that you are conscious. I'm totally convinced that tomorrow morning I'll be conscious too.",
+        "start_time": 1687.3,
+        "end_time": 1690.58
+    },
+    {
+        "text": " So that limitation, I don't think is a relevant limitation, right? I am totally sure that you're",
+        "start_time": 1691.34,
+        "end_time": 1696.24
+    },
+    {
+        "text": " conscious. Now, if take a slightly more tricky example, someone who suffered brain injury,",
+        "start_time": 1696.24,
+        "end_time": 1702.06
+    },
+    {
+        "text": " if they're able to speak, even if it's through imagining things in, so that it sets off, there's",
+        "start_time": 1702.38,
+        "end_time": 1708.3600000000001
+    },
+    {
+        "text": " a beautiful series of experiments pioneered by my colleague and friend Adrian Owen where he got",
+        "start_time": 1708.52,
+        "end_time": 1712.84
+    },
+    {
+        "text": " people in a brain scanner who could not behave. They couldn't say anything, they couldn't even move.",
+        "start_time": 1712.84,
+        "end_time": 1717.66
+    },
+    {
+        "text": " So they look from the outside as if they're unconscious, right? But if you ask them questions",
+        "start_time": 1717.92,
+        "end_time": 1723.04
+    },
+    {
+        "text": " or give them instructions, imagine walking around your house or imagine playing tennis,",
+        "start_time": 1723.6399999999999,
+        "end_time": 1728.1
+    },
+    {
+        "text": " different parts of the brain light up in the same way that would happen for me or you.",
+        "start_time": 1728.62,
+        "end_time": 1732.58
+    },
+    {
+        "text": " This seems to be extremely good evidence in this case that these people are conscious because",
+        "start_time": 1733.3,
+        "end_time": 1738.76
+    },
+    {
+        "text": " it's very, very difficult to imagine a human being doing that without being conscious, understanding",
+        "start_time": 1738.76,
+        "end_time": 1745.12
+    },
+    {
+        "text": " the instructions, voluntarily following them for extended periods of time. It makes sense in that",
+        "start_time": 1745.12,
+        "end_time": 1750.96
+    },
+    {
+        "text": " context, so we can be pretty sure in that context. Now, it's very easy to get a language model to",
+        "start_time": 1750.96,
+        "end_time": 1757.32
+    },
+    {
+        "text": " say anything, but that doesn't mean what it says relates to what it is in the same way because it's",
+        "start_time": 1757.32,
+        "end_time": 1763.62
+    },
+    {
+        "text": " a language model. So the shared background is not there. So I think the challenge we face is,",
+        "start_time": 1763.62,
+        "end_time": 1769.58
+    },
+    {
+        "text": " it's really the challenge of consciousness science. It's going to be very difficult to figure out",
+        "start_time": 1769.7,
+        "end_time": 1774.8
+    },
+    {
+        "text": " what the sufficient conditions for consciousness are until we have a better understanding of how",
+        "start_time": 1775.3999999999999,
+        "end_time": 1781.74
+    },
+    {
+        "text": " consciousness happens in those places where we can be reasonably certain that it exists.",
+        "start_time": 1781.74,
+        "end_time": 1786.16
+    },
+    {
+        "text": " We learn a bit by a bit. We gradually extrapolate. These days, most people are pretty convinced that",
+        "start_time": 1786.72,
+        "end_time": 1792.62
+    },
+    {
+        "text": " all mammals have at least some conscious experience. Not everybody, but most people. That allows us",
+        "start_time": 1792.62,
+        "end_time": 1797.56
+    },
+    {
+        "text": " to generalize beyond the human, get a sense of what's going on in brains that's relevant to",
+        "start_time": 1797.56,
+        "end_time": 1803.52
+    },
+    {
+        "text": " consciousness that's not specific to humans, gets us away from the language, for instance. And as we",
+        "start_time": 1803.52,
+        "end_time": 1808.62
+    },
+    {
+        "text": " do more of this, I think we'll be able to make better inferences about the presence of consciousness",
+        "start_time": 1809.3600000000001,
+        "end_time": 1815.6
+    },
+    {
+        "text": " where we're less sure on our footing. I'm getting from you, Neil, that you don't think that",
+        "start_time": 1816.5,
+        "end_time": 1823.72
+    },
+    {
+        "text": " machines will become conscious, although there is plenty of room for disagreement. So what are the",
+        "start_time": 1823.72,
+        "end_time": 1829.92
+    },
+    {
+        "text": " consequences of getting it wrong? I'm glad you raised that because you're right from my own",
+        "start_time": 1829.92,
+        "end_time": 1835.74
+    },
+    {
+        "text": " perspective of consciousness being very closely tied to life. I think we're not on a path to",
+        "start_time": 1835.74,
+        "end_time": 1840.7
+    },
+    {
+        "text": " conscious AI. I think we're on a path to AI that seems conscious, but that's a very different",
+        "start_time": 1840.7,
+        "end_time": 1845.3
+    },
+    {
+        "text": " thing. But of course, I might be wrong and probably am wrong. I think most people who have theories",
+        "start_time": 1845.3,
+        "end_time": 1851.66
+    },
+    {
+        "text": " of consciousness are also probably wrong. There's a real need for a certain humility here. I always",
+        "start_time": 1851.66,
+        "end_time": 1858.94
+    },
+    {
+        "text": " think if you hear a confident pronouncement from somebody that AI could never be conscious or AI",
+        "start_time": 1858.94,
+        "end_time": 1866.7
+    },
+    {
+        "text": " is conscious, then I think we should be pretty skeptical. There are no grounds for extreme confidence",
+        "start_time": 1866.7,
+        "end_time": 1875.06
+    },
+    {
+        "text": " either way here. The consequences of being wrong about the fact of the matter and about AI",
+        "start_time": 1875.5800000000002,
+        "end_time": 1881.44
+    },
+    {
+        "text": " actually being conscious are huge, which is another reason we need to respect this humility.",
+        "start_time": 1881.44,
+        "end_time": 1887.0
+    },
+    {
+        "text": " If AI is on a path to being conscious or already slightly conscious, as Ilius, it's",
+        "start_time": 1888.26,
+        "end_time": 1894.72
+    },
+    {
+        "text": " never put it then. We face a moral, ethical catastrophe of unprecedented proportion and that",
+        "start_time": 1894.72,
+        "end_time": 1901.48
+    },
+    {
+        "text": " sounds very dramatic, but I think it's warranted. As soon as something is conscious, it has moral",
+        "start_time": 1901.48,
+        "end_time": 1908.84
+    },
+    {
+        "text": " considerableity. It has its own interests. It plausibly has the potential to experience",
+        "start_time": 1909.6999999999998,
+        "end_time": 1915.84
+    },
+    {
+        "text": " suffering and it may be suffering of a kind that we won't or constitutively",
+        "start_time": 1915.84,
+        "end_time": 1922.34
+    },
+    {
+        "text": " unable to recognize because of the very different constitution of these systems. If we artificially",
+        "start_time": 1922.34,
+        "end_time": 1930.56
+    },
+    {
+        "text": " bring new forms of suffering into existence through developing real artificial consciousness,",
+        "start_time": 1930.56,
+        "end_time": 1937.58
+    },
+    {
+        "text": " all that is with capital letters A very bad thing indeed. I think it's a really",
+        "start_time": 1938.7,
+        "end_time": 1944.44
+    },
+    {
+        "text": " ethically crucial but epistemologically, which is to say how will we know highly uncertain",
+        "start_time": 1945.3799999999999,
+        "end_time": 1951.2
+    },
+    {
+        "text": " situation? What you take out of this mess, I think the first thing you take out of it is that it",
+        "start_time": 1951.2,
+        "end_time": 1957.66
+    },
+    {
+        "text": " should not be a goal to build conscious AI. Nobody should be trying to build AI that actually is",
+        "start_time": 1957.66,
+        "end_time": 1966.56
+    },
+    {
+        "text": " conscious. That is ethically, morally, a highly irresponsible thing to be doing. Now, of course,",
+        "start_time": 1966.56,
+        "end_time": 1973.46
+    },
+    {
+        "text": " some people would say, what any AI system, you're saying we shouldn't do any research in cognitive",
+        "start_time": 1973.64,
+        "end_time": 1978.58
+    },
+    {
+        "text": " neuroscience or AI? No, no, no, no, no. I think there's again a line to walk. I think it's very",
+        "start_time": 1978.58,
+        "end_time": 1982.94
+    },
+    {
+        "text": " reasonable that we can build systems that are useful, that maybe leverage some of the functions that",
+        "start_time": 1982.94,
+        "end_time": 1991.54
+    },
+    {
+        "text": " we associate with consciousness. This is a conversation I had a number of times with Yoshihua Benjou and",
+        "start_time": 1991.54,
+        "end_time": 1996.22
+    },
+    {
+        "text": " others who we were talking about this in terms of where AI should go and this idea came up that",
+        "start_time": 1996.22,
+        "end_time": 2002.42
+    },
+    {
+        "text": " there are things that we do that we associate with consciousness that are very useful,",
+        "start_time": 2003.14,
+        "end_time": 2008.34
+    },
+    {
+        "text": " that AI systems don't do or don't do very well yet. Things like learning from one shot or very",
+        "start_time": 2008.92,
+        "end_time": 2016.38
+    },
+    {
+        "text": " small amounts of data, generalizing out of distribution to novel situations and having insight",
+        "start_time": 2016.38,
+        "end_time": 2023.38
+    },
+    {
+        "text": " into their own accuracy. We intuitively have a degree of confidence about things we're conscious of.",
+        "start_time": 2024.1000000000001,
+        "end_time": 2030.56
+    },
+    {
+        "text": " Now, these are all very useful things and so it makes sense to think, can we abstract the",
+        "start_time": 2031.28,
+        "end_time": 2037.92
+    },
+    {
+        "text": " principles by which brains do these and build them into artificial systems? I think that's",
+        "start_time": 2037.92,
+        "end_time": 2043.08
+    },
+    {
+        "text": " reasonable thing to do. It's walking the line. What I think is unreasonable to do is have an",
+        "start_time": 2043.08,
+        "end_time": 2048.38
+    },
+    {
+        "text": " explicit goal to build a machine that has conscious experience. We don't know what it would take to do",
+        "start_time": 2048.38,
+        "end_time": 2054.84
+    },
+    {
+        "text": " but critically we also don't know how to guarantee not doing that. We don't know what it wouldn't",
+        "start_time": 2055.4,
+        "end_time": 2061.6
+    },
+    {
+        "text": " take. I can see the strong argument in here for the best way to understand our own consciousness",
+        "start_time": 2061.6,
+        "end_time": 2071.16
+    },
+    {
+        "text": " is going to be to make surrogate models AI that we can turn on and off its consciousness to see",
+        "start_time": 2071.16,
+        "end_time": 2078.5
+    },
+    {
+        "text": " how its behavior or other systems might change and so the best way to understand what it'll take to",
+        "start_time": 2078.5,
+        "end_time": 2085.46
+    },
+    {
+        "text": " not build conscious AI is to try to figure out what it would take to turn it on and off.",
+        "start_time": 2085.46,
+        "end_time": 2090.58
+    },
+    {
+        "text": " I'm curious how we reacted that. It's very similar to the greatest accelerant to AI risk",
+        "start_time": 2091.08,
+        "end_time": 2096.46
+    },
+    {
+        "text": " has been people who've been focused on AI safety trying to race there to get there first.",
+        "start_time": 2096.46,
+        "end_time": 2101.14
+    },
+    {
+        "text": " Yes. Now, it's a dangerous line of thinking and there's also there in let's say animal research",
+        "start_time": 2101.66,
+        "end_time": 2107.94
+    },
+    {
+        "text": " in neuroscience too. How do we best understand how to avoid suffering in human beings and",
+        "start_time": 2107.94,
+        "end_time": 2115.0
+    },
+    {
+        "text": " other animals? We need to understand the neural mechanisms so we need to do experiments.",
+        "start_time": 2115.0,
+        "end_time": 2117.84
+    },
+    {
+        "text": " There's always a line to tread here. Personally, because I think that consciousness is not just a",
+        "start_time": 2118.22,
+        "end_time": 2126.38
+    },
+    {
+        "text": " matter of computation, personally, I'm quite comfortable with computer simulations and models",
+        "start_time": 2126.38,
+        "end_time": 2131.06
+    },
+    {
+        "text": " of the brain as ways of understanding the brain mechanisms involved in consciousness.",
+        "start_time": 2131.7000000000003,
+        "end_time": 2136.7
+    },
+    {
+        "text": " In just the same way that I'd be comfortable with computer simulations of protein folding",
+        "start_time": 2137.4199999999996,
+        "end_time": 2141.22
+    },
+    {
+        "text": " or weather systems as ways of understanding these things, I think the chances of actually these",
+        "start_time": 2141.22,
+        "end_time": 2146.3
+    },
+    {
+        "text": " things being conscious is so low that I'm happy with doing that. But if I thought that building a",
+        "start_time": 2146.3,
+        "end_time": 2153.54
+    },
+    {
+        "text": " model of let's say a global workspace or whatever your theory of consciousness prefer than it might be",
+        "start_time": 2153.54,
+        "end_time": 2158.9
+    },
+    {
+        "text": " would actually generate a little bit of consciousness. I would be much less happy about doing that.",
+        "start_time": 2158.9,
+        "end_time": 2165.16
+    },
+    {
+        "text": " So it does depend on what your starting assumptions are, which is another reason I think we should be very",
+        "start_time": 2165.72,
+        "end_time": 2171.12
+    },
+    {
+        "text": " curious about the assumptions we make about what it would take for something to be conscious.",
+        "start_time": 2171.76,
+        "end_time": 2176.46
+    },
+    {
+        "text": " I mean, just noticing it is like a almost a contradiction inside of myself, which is",
+        "start_time": 2177.18,
+        "end_time": 2181.8
+    },
+    {
+        "text": " I really want the answer to what it means for a system to be conscious when it comes to animals",
+        "start_time": 2182.36,
+        "end_time": 2188.06
+    },
+    {
+        "text": " for us to treat them with a greater respect, dignity, to displace humanity as the center of the world.",
+        "start_time": 2188.06,
+        "end_time": 2197.08
+    },
+    {
+        "text": " Yet when it comes to machine consciousness, I want the answer to go the other way.",
+        "start_time": 2197.74,
+        "end_time": 2202.66
+    },
+    {
+        "text": " I wanted to be like, well, that doesn't really count somehow. It's a different substrate.",
+        "start_time": 2203.2,
+        "end_time": 2206.7
+    },
+    {
+        "text": " Therefore, we don't have a moral obligation to something that I can't pat and touch or hold or",
+        "start_time": 2207.4,
+        "end_time": 2214.46
+    },
+    {
+        "text": " or feel like a kind of empathy in its physical form. And I guess it gets to this next question,",
+        "start_time": 2214.46,
+        "end_time": 2220.72
+    },
+    {
+        "text": " which is like, all right, what steps do we need to take to orient society around the future?",
+        "start_time": 2220.88,
+        "end_time": 2228.52
+    },
+    {
+        "text": " We're actually already starting to live in. This is a very difficult question, of course, which is why",
+        "start_time": 2228.98,
+        "end_time": 2236.58
+    },
+    {
+        "text": " we're talking about it, right? And I don't have all the answers at all. I do feel strongly that",
+        "start_time": 2237.18,
+        "end_time": 2242.32
+    },
+    {
+        "text": " number one thing already mentioned, we should make it morally unacceptable to have as a goal to",
+        "start_time": 2242.32,
+        "end_time": 2249.24
+    },
+    {
+        "text": " build conscious AI, real conscious AI. I mean, that's just not a good idea. Hard to know what that",
+        "start_time": 2249.24,
+        "end_time": 2255.18
+    },
+    {
+        "text": " means in practice again for the reasons we've just discussed, but at least if we have that as a",
+        "start_time": 2255.18,
+        "end_time": 2259.38
+    },
+    {
+        "text": " north star, then as we learn more about consciousness and more about AI, we should revisit this",
+        "start_time": 2259.38,
+        "end_time": 2265.38
+    },
+    {
+        "text": " constraint. Then there are other other questions, which I think come down to how do we learn more,",
+        "start_time": 2266.08,
+        "end_time": 2272.08
+    },
+    {
+        "text": " and here I think is where we do need to walk the line. So the more we do know about consciousness",
+        "start_time": 2272.08,
+        "end_time": 2278.44
+    },
+    {
+        "text": " in those places where we are sure it exists or reasonably sure, the more informed our inferences",
+        "start_time": 2279.04,
+        "end_time": 2284.42
+    },
+    {
+        "text": " will be in other cases. So the real urgency is to accelerate research into consciousness. So this",
+        "start_time": 2284.42,
+        "end_time": 2291.62
+    },
+    {
+        "text": " is a bit like your acceleration example. But I do think that consciousness we are learning a lot",
+        "start_time": 2291.62,
+        "end_time": 2297.98
+    },
+    {
+        "text": " more about it. And there are ways to do this, which I don't think are particularly morally",
+        "start_time": 2297.98,
+        "end_time": 2303.06
+    },
+    {
+        "text": " problematic. They just require resources and scientifically upping the game in all sorts of ways,",
+        "start_time": 2303.06,
+        "end_time": 2309.18
+    },
+    {
+        "text": " but that's perfectly possible. So I think that's something that we should do more of, not only for AI",
+        "start_time": 2309.18,
+        "end_time": 2314.7
+    },
+    {
+        "text": " sake, but also when it comes to animal welfare and you'll work with in the Earth's species projects,",
+        "start_time": 2314.7,
+        "end_time": 2320.86
+    },
+    {
+        "text": " there were beautiful examples. Again, exactly how do we use knowledge to finesse, to change our",
+        "start_time": 2320.86,
+        "end_time": 2327.78
+    },
+    {
+        "text": " behavior with the systems creatures we share our world with. But also human infants and organists.",
+        "start_time": 2327.78,
+        "end_time": 2334.42
+    },
+    {
+        "text": " So many cases where it's really important to understand, even in the law, it's important to",
+        "start_time": 2334.66,
+        "end_time": 2338.48
+    },
+    {
+        "text": " understand more about consciousness, to understand when we hold people responsible for their actions.",
+        "start_time": 2338.48,
+        "end_time": 2342.3
+    },
+    {
+        "text": " It's not an armchair philosophical endeavor. Consciousness science is possibly one of the most",
+        "start_time": 2342.82,
+        "end_time": 2347.04
+    },
+    {
+        "text": " practically urgent things that we could be doing. And then I think the last thing back to AI",
+        "start_time": 2347.04,
+        "end_time": 2353.08
+    },
+    {
+        "text": " is systems that seem conscious, because this is happening. And here we need to decide, well,",
+        "start_time": 2353.08,
+        "end_time": 2359.26
+    },
+    {
+        "text": " what kinds of systems do we want? Do we really want to just design AI systems that",
+        "start_time": 2359.26,
+        "end_time": 2364.82
+    },
+    {
+        "text": " maximally seduce our intuitions, are as convincing as they possibly could be? I don't think so.",
+        "start_time": 2364.82,
+        "end_time": 2371.62
+    },
+    {
+        "text": " I see some advantages, and some of them may be slightly uncomfortable. The idea that we could",
+        "start_time": 2372.2599999999998,
+        "end_time": 2377.96
+    },
+    {
+        "text": " benefit from therapy talking to a language model that actually doesn't care about as a tool,",
+        "start_time": 2377.96,
+        "end_time": 2383.42
+    },
+    {
+        "text": " because it can't care about anything is disquieting. But if there's evidence that it's useful",
+        "start_time": 2383.58,
+        "end_time": 2389.42
+    },
+    {
+        "text": " and there is some, then it's hard to dismiss it as a bad idea. But it doesn't mean that this race",
+        "start_time": 2389.42,
+        "end_time": 2396.54
+    },
+    {
+        "text": " to the bottom, wherever you want to go, race to complete, encourage ability of systems appearing",
+        "start_time": 2396.54,
+        "end_time": 2403.36
+    },
+    {
+        "text": " conscious is a good thing. One of my mentors, who sadly died recently, Daniel Danett,",
+        "start_time": 2403.36,
+        "end_time": 2408.7
+    },
+    {
+        "text": " I think he said something, we said many very wise things. One of the things he said that stuck",
+        "start_time": 2409.46,
+        "end_time": 2413.74
+    },
+    {
+        "text": " with me was that we should always remember that AI systems are tools and not colleagues. We should",
+        "start_time": 2413.74,
+        "end_time": 2421.68
+    },
+    {
+        "text": " not kid ourselves otherwise. And I think we should design them with that in mind too.",
+        "start_time": 2421.68,
+        "end_time": 2427.98
+    },
+    {
+        "text": " We need design systems that best complement us as humans and that don't mimic or try to replace us",
+        "start_time": 2428.2,
+        "end_time": 2436.2
+    },
+    {
+        "text": " as humans. Yeah, I think that's a really great point, but I also think we need to be really careful",
+        "start_time": 2436.2,
+        "end_time": 2441.46
+    },
+    {
+        "text": " because we can't forget that while humans wield tools, incentives wield humans. So when people",
+        "start_time": 2441.46,
+        "end_time": 2449.22
+    },
+    {
+        "text": " hear that AI is just a tool, they sometimes hear that it's just up to us to decide how to use them,",
+        "start_time": 2449.22,
+        "end_time": 2454.46
+    },
+    {
+        "text": " but that's not really true. It's the incentives that shape how the tools end up being used.",
+        "start_time": 2454.66,
+        "end_time": 2460.32
+    },
+    {
+        "text": " And thinking back to the releases of OpenAI's GPT-40, it's really designed to feel",
+        "start_time": 2460.76,
+        "end_time": 2465.12
+    },
+    {
+        "text": " eerily human. It jokes and it laughs, it sings, it flirts. There's a clear race, a scramble for",
+        "start_time": 2465.12,
+        "end_time": 2471.24
+    },
+    {
+        "text": " the appearance of artificial consciousness. Yeah, there is, there's an appeal to it. And I think",
+        "start_time": 2471.24,
+        "end_time": 2477.04
+    },
+    {
+        "text": " this does go back to this 100,000 year history of humans wanting to create things in their",
+        "start_time": 2477.04,
+        "end_time": 2485.08
+    },
+    {
+        "text": " image, but that history of literature, if it's taught as anything, it's taught as the things that",
+        "start_time": 2485.08,
+        "end_time": 2490.86
+    },
+    {
+        "text": " can go wrong. If we buy into that goal without thinking critically about it, I recently read",
+        "start_time": 2490.86,
+        "end_time": 2498.62
+    },
+    {
+        "text": " Frankenstein, Mary Shelley's novel. The thing about Frankenstein was that when I read it now,",
+        "start_time": 2498.62,
+        "end_time": 2506.74
+    },
+    {
+        "text": " thinking about things we've been talking about now, instead of it being a caution",
+        "start_time": 2507.04,
+        "end_time": 2511.84
+    },
+    {
+        "text": " retail against the hubris of creating life, which I think is often how it's interpreted,",
+        "start_time": 2511.84,
+        "end_time": 2517.28
+    },
+    {
+        "text": " you know, the lightning bolt. And I'm alive and in the dark tower and midnight. It's not that the",
+        "start_time": 2517.46,
+        "end_time": 2523.1
+    },
+    {
+        "text": " creature was alive that mattered. It was that it was conscious. It was the ability of Frankenstein's",
+        "start_time": 2523.1,
+        "end_time": 2528.58
+    },
+    {
+        "text": " creature to feel, to experience sadness, rejection, envy that led to all the carnage that followed.",
+        "start_time": 2528.58,
+        "end_time": 2537.18
+    },
+    {
+        "text": " So reading it now, I think it does what great literature often does, which is it, it's always",
+        "start_time": 2537.82,
+        "end_time": 2542.82
+    },
+    {
+        "text": " relevant. And it seems now to be a caution retail against the hubris of the desire to create artificial",
+        "start_time": 2542.82,
+        "end_time": 2551.84
+    },
+    {
+        "text": " consciousness. And we should avoid making that mistake, whether in reality or even in appearance.",
+        "start_time": 2551.84,
+        "end_time": 2559.74
+    },
+    {
+        "text": " I just want to come back because I know how the human mind works is that intelligence and",
+        "start_time": 2562.42,
+        "end_time": 2571.86
+    },
+    {
+        "text": " consciousness, the ability to have such a thing as the feeling of being, are different. And what",
+        "start_time": 2571.86,
+        "end_time": 2578.88
+    },
+    {
+        "text": " labs are doing right now is they are racing towards the ability to automate AI research. That is",
+        "start_time": 2579.2,
+        "end_time": 2587.26
+    },
+    {
+        "text": " the ability to sort of spit out an AI that acts like an intelligent human agent that can program",
+        "start_time": 2587.26,
+        "end_time": 2595.74
+    },
+    {
+        "text": " at the level of an AI researcher to discover new algorithmic gains and new ways of running AI,",
+        "start_time": 2595.74,
+        "end_time": 2601.92
+    },
+    {
+        "text": " says that AI gets better. And so, you know, the thing they're heading towards is a intelligence",
+        "start_time": 2602.44,
+        "end_time": 2607.18
+    },
+    {
+        "text": " explosion. And of course, once you start being able to create AI, that makes AI better, which makes",
+        "start_time": 2607.82,
+        "end_time": 2614.34
+    },
+    {
+        "text": " AI better, you end up in this like double exponential curve. And none of that asymmetric power,",
+        "start_time": 2614.34,
+        "end_time": 2620.72
+    },
+    {
+        "text": " which comes with an asymmetric ability to persuade, among many other things, none of that requires",
+        "start_time": 2620.88,
+        "end_time": 2628.9
+    },
+    {
+        "text": " whether you are conscious or not. But where it intersects with the question of consciousness is",
+        "start_time": 2628.9,
+        "end_time": 2634.88
+    },
+    {
+        "text": " the rate at which new technology will be coming out, the rate at which scientists or labs can",
+        "start_time": 2634.88,
+        "end_time": 2640.86
+    },
+    {
+        "text": " try out, hey, maybe this thing is conscious, that's going to get faster and faster and faster.",
+        "start_time": 2640.86,
+        "end_time": 2644.98
+    },
+    {
+        "text": " And so, the ability for us to have the moderating effect to even be able to do this kind of philosophy",
+        "start_time": 2646.0,
+        "end_time": 2649.86
+    },
+    {
+        "text": " on a deadline gets shorter and shorter and shorter and shorter as the consequences go higher and higher",
+        "start_time": 2649.86,
+        "end_time": 2654.02
+    },
+    {
+        "text": " and higher. Yeah, and this notion of the double exponential is troubling. I wonder about it a bit,",
+        "start_time": 2654.02,
+        "end_time": 2661.3
+    },
+    {
+        "text": " there's also arguments that things might be plateauing and flatlining in some respects.",
+        "start_time": 2661.98,
+        "end_time": 2666.66
+    },
+    {
+        "text": " Psychologically, again, our ability to deal with exponential curves is notoriously bad.",
+        "start_time": 2668.36,
+        "end_time": 2672.34
+    },
+    {
+        "text": " And we always feel like we're on a threshold, but that's just how exponential curves look",
+        "start_time": 2672.6,
+        "end_time": 2676.82
+    },
+    {
+        "text": " wherever you are on them. Things are moving fast, but there are things we can do. I mean, the first",
+        "start_time": 2676.82,
+        "end_time": 2681.18
+    },
+    {
+        "text": " thing is just to continually remind ourselves, because it's hard, because we're psychologically",
+        "start_time": 2681.18,
+        "end_time": 2686.16
+    },
+    {
+        "text": " programmed thing otherwise, but just to continually remind ourselves that consciousness and intelligence",
+        "start_time": 2686.16,
+        "end_time": 2691.16
+    },
+    {
+        "text": " are different things, that consciousness won't just come along inevitably as systems get smarter and",
+        "start_time": 2691.8399999999997,
+        "end_time": 2698.72
+    },
+    {
+        "text": " reach some threshold, it's not just going to happen. And also, that there's a difference between",
+        "start_time": 2698.72,
+        "end_time": 2705.46
+    },
+    {
+        "text": " systems that are conscious and systems that seem conscious. And they have these different",
+        "start_time": 2705.46,
+        "end_time": 2710.6
+    },
+    {
+        "text": " ethical consequences. One is more about the problems of bringing into the world massive new forms",
+        "start_time": 2710.6,
+        "end_time": 2716.6
+    },
+    {
+        "text": " of suffering. The other is what it would do to us as human beings, brutalizing our minds,",
+        "start_time": 2716.6,
+        "end_time": 2722.06
+    },
+    {
+        "text": " making us psychologically vulnerable. Different situations, different risks, one very unlikely",
+        "start_time": 2722.76,
+        "end_time": 2728.72
+    },
+    {
+        "text": " uncertain one already with us. So seeing the landscape clearly, I think, is really the first step,",
+        "start_time": 2728.72,
+        "end_time": 2736.14
+    },
+    {
+        "text": " and that can get us a long way. We're in this trouble in the first place, because we don't have",
+        "start_time": 2736.14,
+        "end_time": 2742.22
+    },
+    {
+        "text": " a sufficiently good understanding of the nature of consciousness. It was always one of the biggest",
+        "start_time": 2743.02,
+        "end_time": 2747.7
+    },
+    {
+        "text": " problems in the world. It's been perplexing thinkers since people have been thinking.",
+        "start_time": 2747.7,
+        "end_time": 2753.2
+    },
+    {
+        "text": " What's been amazing to me over the 25, 30 years I've been doing this is the progress is being made.",
+        "start_time": 2754.34,
+        "end_time": 2760.86
+    },
+    {
+        "text": " We don't have the full answer, but what is known now about consciousness and how to think about it",
+        "start_time": 2760.86,
+        "end_time": 2767.72
+    },
+    {
+        "text": " has changed. And these changes have implications already for how we think about consciousness",
+        "start_time": 2767.72,
+        "end_time": 2773.8
+    },
+    {
+        "text": " and other systems, animals, machines. So really, and this is a little bit of a self-serving",
+        "start_time": 2773.8,
+        "end_time": 2780.0
+    },
+    {
+        "text": " prescription, but honestly, more effort, more resources to better understanding consciousness",
+        "start_time": 2780.0,
+        "end_time": 2785.46
+    },
+    {
+        "text": " is really, really important. And then the last word is humility for me. No one knows how consciousness",
+        "start_time": 2785.46,
+        "end_time": 2793.26
+    },
+    {
+        "text": " happens. No one knows how to guarantee to avoid creating something that's conscious. So we need",
+        "start_time": 2793.26,
+        "end_time": 2800.08
+    },
+    {
+        "text": " to take all these things with a bit of a pinch of salt and recognize as a plurality of use,",
+        "start_time": 2800.08,
+        "end_time": 2804.98
+    },
+    {
+        "text": " but not throw our hands up and realize, because anything, we can still say things. We can still",
+        "start_time": 2805.5,
+        "end_time": 2809.9
+    },
+    {
+        "text": " have informed guesses, but let's beware of certainty. And Neil, this has been fascinating and even more so,",
+        "start_time": 2809.9,
+        "end_time": 2819.46
+    },
+    {
+        "text": " I think, has drawn out a lot of the consequences for what we get wrong when we think about AI",
+        "start_time": 2819.74,
+        "end_time": 2827.56
+    },
+    {
+        "text": " and consciousness and what its implications are going to be. So thank you very much for coming",
+        "start_time": 2827.56,
+        "end_time": 2832.74
+    },
+    {
+        "text": " on the show. Thank you, Razor. It's been a delight speaking to you. Really enjoyed it. Thank you very",
+        "start_time": 2832.74,
+        "end_time": 2837.74
+    },
+    {
+        "text": " much for having me. Your undivided attention is produced by the Center for Humane Technology,",
+        "start_time": 2837.74,
+        "end_time": 2846.1
+    },
+    {
+        "text": " a nonprofit working to catalyze a humane future. Our senior producers, Julius Scott, Josh Lash is",
+        "start_time": 2846.54,
+        "end_time": 2852.3
+    },
+    {
+        "text": " our researcher and producer, and our executive producer is Sasha Figan, mixing on this episode by",
+        "start_time": 2852.3,
+        "end_time": 2858.22
+    },
+    {
+        "text": " Jeff Sudaken, original music by Ryan and Hayes Holiday. If you liked the podcast, we'd be grateful",
+        "start_time": 2858.22,
+        "end_time": 2864.42
+    },
+    {
+        "text": " if you could rate it on Apple podcasts because it helps other people find the show.",
+        "start_time": 2864.42,
+        "end_time": 2868.5
+    },
+    {
+        "text": " And if you made it all the way here, let me give you one more thanks for giving us your undivided attention.",
+        "start_time": 2869.22,
+        "end_time": 2875.78
+    }
+]
