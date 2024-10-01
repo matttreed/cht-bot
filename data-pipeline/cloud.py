@@ -3,21 +3,14 @@ import weaviate
 import weaviate.classes as wvc
 import weaviate.classes.config as wc
 from util import Chunk, get_properties_dict
+import time
+from tqdm import tqdm
+import random
 
-WEAVIATE_CLUSTER_URL = (
-    os.getenv("WEAVIATE_CLUSTER_URL")
-    or "https://ym7d1cb5tg2jhtwdhmq0g.c0.us-east1.gcp.weaviate.cloud"
-)
-WEAVIATE_ADMIN_API_KEY = (
-    os.getenv("WEAVIATE_API_KEY") or "SucGsGytE3CoEASOxCSuROT6BNcIZW59S0gP"
-)
-WEAVIATE_READ_ONLY_API_KEY = (
-    os.getenv("WEAVIATE_READ_ONLY_API_KEY") or "cBpLDDe5XeKvfKeXdO7sW2deGWatBTG6nE3B"
-)
-OPENAI_API_KEY = (
-    os.getenv("OPENAI_API_KEY")
-    or "sk-M9dLmwugbDkRHHacwtlAuKM0eknId6dx9XE3NM2MJnT3BlbkFJZH1Fbw0W9EvIrMAoE6rR0XrdpUYTiHpO9UuaXzThkA"
-)
+WEAVIATE_CLUSTER_URL = os.getenv("WEAVIATE_CLUSTER_URL") or ""
+WEAVIATE_ADMIN_API_KEY = os.getenv("WEAVIATE_ADMIN_API_KEY") or ""
+WEAVIATE_READ_ONLY_API_KEY = os.getenv("WEAVIATE_READ_ONLY_API_KEY") or ""
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY") or ""
 COLLECTION_NAME = "chunks"
 
 
@@ -46,7 +39,10 @@ def create_collection(client, collection_name=COLLECTION_NAME):
     collection = client.collections.create(
         name=collection_name,
         vectorizer_config=wvc.config.Configure.Vectorizer.text2vec_openai(),
-        generative_config=wvc.config.Configure.Generative.openai(model="gpt-3.5-turbo"),
+        # vectorizer_config=wvc.config.Configure.Vectorizer.text2vec_cohere(
+        #     api_key="your_cohere_api_key"
+        # ),
+        # generative_config=wvc.config.Configure.Generative.openai(model="gpt-3.5-turbo"),
         properties=[
             wc.Property(
                 name="start_time", data_type=wc.DataType.TEXT, skip_vectorization=True
@@ -61,7 +57,7 @@ def create_collection(client, collection_name=COLLECTION_NAME):
             wc.Property(name="speaker", data_type=wc.DataType.TEXT),
             wc.Property(name="title", data_type=wc.DataType.TEXT),
             wc.Property(
-                name="youtube_url", data_type=wc.DataType.TEXT, skip_vectorization=True
+                name="youtube_id", data_type=wc.DataType.TEXT, skip_vectorization=True
             ),
         ],
     )
@@ -73,10 +69,38 @@ def populate_collection(client, chunks: list[Chunk], collection_name=COLLECTION_
     print("Populating collection")
     collection = client.collections.get(name=collection_name)
 
-    for chunk in chunks:
-        uuid = collection.data.insert(get_properties_dict(chunk))
+    max_retries = 5
+    initial_delay = 0.1
 
-        print(f"{chunk.title, chunk.start_time}: {uuid}", end="\n")
+    with collection.batch.dynamic() as batch:
+        for chunk in tqdm(chunks):
+            batch.add_object(
+                properties=get_properties_dict(chunk),
+            )
+
+    return
+
+    for chunk in tqdm(chunks):
+        retries = 0
+        success = False
+        while not success and retries < max_retries:
+            try:
+                # Attempt to insert data
+                uuid = collection.data.insert(get_properties_dict(chunk))
+                time.sleep(initial_delay)  # Regular delay between inserts
+                # print(f"{chunk.title, chunk.start_time}: {uuid}", end="\n")
+                success = True  # Exit the retry loop on success
+            except Exception as e:
+                retries += 1
+                # Exponential backoff: 2^retries seconds, plus some jitter to prevent thundering herd
+                backoff_time = (initial_delay * 2**retries) + random.uniform(0, 1)
+                print(
+                    f"Error inserting chunk: {e}. Retrying in {backoff_time:.2f} seconds... (Attempt {retries})"
+                )
+                time.sleep(backoff_time)
+
+        if not success:
+            print(f"Failed to insert chunk {chunk.title} after {max_retries} retries.")
 
 
 def upload_to_weaviate(chunks: list[Chunk]):

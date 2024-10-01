@@ -1,14 +1,15 @@
-export type Doc = {
-    url: string;
-    image_url: string;
-    title: string;
-    quote: string;
+export type Chunk = {
+    start_time: number;
+    end_time: number;
+    text: string;
     speaker: string;
+    title: string;
+    youtube_id: string;
 }
 
 export type Message = {
-    role: string;
+    role: "function" | "system" | "user" | "assistant" | "tool";
     content: string;
-    docs?: Doc[];
+    chunks?: Chunk[];
 }
 

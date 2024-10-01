@@ -2,6 +2,10 @@ from util import Source, Chunk, get_sources
 from process_audio import download_audio, transcribe_audio, get_chunks
 from cloud import upload_to_weaviate
 import json
+from dotenv import load_dotenv
+import os
+
+load_dotenv("../.env.local")
 
 
 def main():

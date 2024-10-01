@@ -25,7 +25,8 @@ def download_audio(sources: list[Source]):
         }
 
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-            ydl.download([source.youtube_url])
+            youtube_url = "https://www.youtube.com/watch?v=" + source.youtube_id
+            ydl.download([youtube_url])
 
 
 def transcribe_audio(sources: list[Source]):
@@ -75,7 +76,7 @@ def get_chunks(sources: list[Source]) -> list[Chunk]:
                         text,
                         "speaker",
                         source.title,
-                        source.youtube_url,
+                        source.youtube_id,
                     )
                 )
 

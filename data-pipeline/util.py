@@ -11,7 +11,7 @@ AUDIO_FOLDER = "audio_files"
 class Source:
     title: str
     slug: str
-    youtube_url: str
+    youtube_id: str
     downloaded: bool = False
     transcribed: bool = False
 
@@ -23,7 +23,7 @@ class Chunk:
     text: str
     speaker: str
     title: str
-    youtube_url: str
+    youtube_id: str
 
 
 def get_properties_dict(chunk: Chunk):
@@ -33,7 +33,7 @@ def get_properties_dict(chunk: Chunk):
         "text": chunk.text,
         "speaker": chunk.speaker,
         "title": chunk.title,
-        "youtube_url": chunk.youtube_url,
+        "youtube_id": chunk.youtube_id,
     }
 
 
@@ -64,8 +64,8 @@ def get_sources() -> list[Source]:
     next(reader)  # Skip header
     sources: list[Source] = []
     for row in reader:
-        title, slug, youtube_url = row[0], row[1], row[2]
-        sources.append(Source(title, slug, youtube_url))
+        title, slug, youtube_id = row[0], row[1], row[2]
+        sources.append(Source(title, slug, youtube_id))
     f.close()
 
     downloaded_audio_files = get_existing_audio_files()
