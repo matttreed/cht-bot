@@ -19,15 +19,15 @@ export default function Home() {
 
   const scrollRef = useRef(null);
 
-  useEffect(() => {
-    if (scrollRef.current) {
-      const scrollIncrement = 50; // The amount to scroll (in pixels)
-      const newScrollTop = scrollRef.current.scrollTop + scrollIncrement;
+  // useEffect(() => {
+  //   if (scrollRef.current) {
+  //     const scrollIncrement = 50; // The amount to scroll (in pixels)
+  //     const newScrollTop = scrollRef.current.scrollTop + scrollIncrement;
       
-      // Ensure you don't scroll beyond the bottom
-      scrollRef.current.scrollTop = Math.min(newScrollTop, scrollRef.current.scrollHeight - scrollRef.current.clientHeight);
-    }
-  }, [chat]);
+  //     // Ensure you don't scroll beyond the bottom
+  //     scrollRef.current.scrollTop = Math.min(newScrollTop, scrollRef.current.scrollHeight - scrollRef.current.clientHeight);
+  //   }
+  // }, [chat]);
 
   const addMessage = (message: Message) => {
     setChat(curr_chat => [...curr_chat, message]);

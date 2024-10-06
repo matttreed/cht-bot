@@ -4,22 +4,6 @@ import { processChatTextForEmbed } from "../chat";
 import CustomMarkDown from "./CustomMarkdown";
 import React from "react";
 
-const EmbeddedVideo = ({doc}:{doc: Chunk}) => {
-    const videoUrl = "https://www.youtube.com/embed/" + doc.youtube_id + "?start=" + Math.floor(doc.start_time); //+ "&end=" + Math.floor(doc.end_time);
-    return (
-        <div className="py-4 pr-16">
-        <iframe
-            width="100%" // Adjust width/height as per your needs
-            height="315"
-            src={videoUrl}
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-            title={`YouTube video ${doc.title}`}
-        />
-        </div>
-    );
-}
-
 const ChatMessage = React.memo(({mes}: {mes: Message}) => {
 
     const [clicked, setClicked] = React.useState(false);
@@ -73,5 +57,7 @@ const ChatMessage = React.memo(({mes}: {mes: Message}) => {
         </div>
     )
 })
+
+ChatMessage.displayName = 'ChatMessage';
 
 export default ChatMessage;
