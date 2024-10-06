@@ -51,7 +51,8 @@ const YoutubeIFrame: React.FC<IProps> = (props) => {
     <iframe
       ref={iframeRef}
       title={title}
-      width="100%"
+      width="50%"
+      className="rounded-2xl overflow-hidden mx-auto"
       height={`${videoHeight}px`}
       src={videoURL}
       frameBorder="0"

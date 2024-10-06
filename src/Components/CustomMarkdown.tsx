@@ -18,13 +18,12 @@ export default function CustomMarkDown({ content, className }:{content: string, 
                 return <p className='mb-6' {...rest} />
             },
             img(props) {
-                console.log("woah here")
                 const { node, ...rest } = props;
                 const alt = String(node?.properties.alt);
                 const link = String(node?.properties.src);
                 console.log(link)
                 return (
-                    <div className="mb-6">
+                    <div className="my-6">
                         <YoutubeIFrame
                             videoURL={link}
                             title={alt}
@@ -82,7 +81,11 @@ export default function CustomMarkDown({ content, className }:{content: string, 
             li(props){
                 const { node, ...rest } = props;
                 return <li className='mb-6' {...rest} />
-            }
+            },
+            strong(props){
+                const { node, ...rest } = props;
+                return <strong className='bg-zinc-500 p-1 rounded-lg' {...rest} />
+            },
         }}
     >
         {content}

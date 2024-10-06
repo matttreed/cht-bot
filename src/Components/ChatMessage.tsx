@@ -21,21 +21,54 @@ const EmbeddedVideo = ({doc}:{doc: Chunk}) => {
 }
 
 const ChatMessage = React.memo(({mes}: {mes: Message}) => {
-    const align = mes.role == "assistant" ? "text-left pr-16" : "text-right pl-16";
+
+    const [clicked, setClicked] = React.useState(false);
+
+    if (mes.role == "user") {
+        return (
+            <div className={"pb-8 w-1/2 mx-auto"}>
+                <div className="">
+                    <p className="text-lg bg-zinc-600 rounded-3xl py-3 px-6 ml-auto w-1/2">{mes.content}</p>
+                </div>
+            </div>)
+    }
     // const container_classes = mes.role == "assistant" ? "mr-32" : "ml-32";
     const sections = processChatTextForEmbed(mes);
 
-    console.log(sections)
+    console.log(mes)
 
     if (mes.role == "system") {
-        return null;
+        return (
+            <div 
+                onClick={() => setClicked(c => !c)}
+                className={"mb-8 w-1/2 mx-auto flex hover:pointer"}
+            >
+                <p className="text-lg bg-zinc-600 rounded-2xl py-2 px-4 bg-blue-300 hover:bg-blue-400">{clicked ? mes.content : "System Prompt"}</p>
+            </div>
+        )
     }
 
     return (
-        <div className={"pb-8"}>
+        <div className={"pb-8 w-1/2 mx-auto flex flex-col"}>
+            {mes.question && mes.chunks && 
+                <div 
+                    onClick={() => setClicked(c => !c)}
+                    className={"mb-8 py-2 px-4 rounded-2xl hover:pointer bg-blue-300 hover:bg-blue-400"}
+                > 
+                    <p className="text-lg">{"Extra Info"}</p>
+                    {clicked && 
+                        <div>
+                        {mes.question && <p className="">{"We read your message as: " + mes.question}</p>}
+                        {mes.chunks && mes.chunks.map((doc, index) => {
+                            return <p className="" key={index}>{doc.title}</p>
+                        })}
+                        </div>
+                    }
+                </div>
+            }
             <CustomMarkDown
                 content={sections}
-                className={align}
+                className={""}
             />
         </div>
     )

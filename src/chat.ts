@@ -2,11 +2,11 @@ import axios from 'axios';
 import { Chunk, Message } from './types';
 import { system_prompt } from './copy';
 
-const VIDEO_SEGMENT_REGEX = /\[Video Segment (\d+)\]/g
+const VIDEO_SEGMENT_REGEX = /\[Video Segment (\d+)\]\.?/g
 
 export const defaultConversation: Message[] = [
     { role: "system", content: system_prompt},
-    { role: "assistant", content: "What would you like to know about technology?" }
+    { role: "assistant", content: "What would you like to know about Center for Humane Technology?" }
 ];
 
 export const processChatTextForEmbed = (message: Message): string => {
@@ -64,8 +64,18 @@ export const sendMessage = async (inputText: string, chat: any[], onSuccess: (me
         const response = await axios.post('/api/chatapi', {input: inputText, history});
         const chunks = response.data.chunks;
         const assistantMessage = response.data.completion;
+        const question = response.data.question;
 
-        onSuccess({ role: 'assistant', content: assistantMessage, chunks: chunks });
+        console.log(response.data)
+
+        const mes: Message = { 
+            role: 'assistant', 
+            content: assistantMessage, 
+            chunks: chunks,
+            question: question,
+        }
+
+        onSuccess(mes);
 
     } catch (error) {
         console.error('Error sending message:', error);

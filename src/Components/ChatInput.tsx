@@ -4,10 +4,10 @@ import { useState } from "react";
 const ChatInput = ({onSubmit}: {onSubmit: (text: string) => void}) => {
     const [inputText, setInputText] = useState("");
     return <textarea
-        className="p-2 border border-gray-300 rounded w-full text-black"
+        className="py-3 px-6 mb-12 rounded-3xl w-full text-white bg-zinc-600 focus:outline-none"
         value={inputText}
         onChange={(e) => setInputText(e.target.value)}
-        rows={1} // initial number of rows
+        rows={1}
         style={{ resize: 'none', overflow: 'hidden' }} // disable resize and hide scrollbar
         onInput={(e) => {
         const target = e.target as HTMLTextAreaElement;

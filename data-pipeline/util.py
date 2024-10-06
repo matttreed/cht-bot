@@ -79,6 +79,14 @@ def get_sources() -> list[Source]:
     return sources
 
 
+def ensure_directories_exist():
+    if not os.path.exists(AUDIO_FOLDER):
+        os.makedirs(AUDIO_FOLDER)
+
+    if not os.path.exists(TRANSCRIPTIONS_FOLDER):
+        os.makedirs(TRANSCRIPTIONS_FOLDER)
+
+
 # def save_sources(sources: list[Source]):
 #     with open("sources.csv", mode="w", newline="") as f:
 #         writer = csv.writer(f)

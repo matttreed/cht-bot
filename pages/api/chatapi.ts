@@ -11,6 +11,43 @@ export const config = {
     runtime: "nodejs"
 }
 
+const getEmedQuestion = async (input: string, history: Message[]): Promise<string> => {
+  const system_prompt = `You are a chatbot assistant that is designed to craft helpful queries for a RAG model.
+  
+  Here is the the conversation up until this point for context:
+  
+  ${history.map(message => {
+    return `${message.role}: ${message.content}`
+  }).join("\n\n")}
+  
+  Based on that conversation, craft a helpful query for a RAG model. 
+  Embed all relevant context from the conversation to make the question into a query that stands alone and doesn't need the conversation to be understood.
+`
+  const prompt = `
+
+  Question: ${input}
+
+  Reply with only the query itself, and nothing else. Make the query concise, yet descriptive. The query should include everything the question implies and nothing more.
+  `;
+
+  const messages = [
+    {role: "system", content: system_prompt},
+    {role: "user", content: prompt}
+  ].map(message => message as OpenAI.Chat.ChatCompletionMessageParam);
+
+  try {
+    const completion = await openai.chat.completions.create({
+      model: "gpt-4o-mini",
+      messages,
+    });
+
+    return completion.choices[0].message.content || "";
+  } catch (error: any) {
+    console.error("Error in getEmedQuestion:", error);
+    throw error;
+  }
+}
+
 const getClosestChunks = async (input: string): Promise<Chunk[]> => {
   try {
 
@@ -59,7 +96,9 @@ const getClosestChunks = async (input: string): Promise<Chunk[]> => {
 
 const getChatCompletion = async (input: string, history: Message[], chunks: Chunk[]): Promise<string> => {
   const prompt = `
-  Based on the zero to three of following video segments, answer the question below. For each segment used in your response, indicate where the video should be embedded by using the format [Video Segment X], where X is the corresponding segment number.
+  Based on zero to two of the following video segments, answer the question below. Only include a video segment if it directly supports your answer. If no video segments are relevant to the question, do not include any. 
+
+  For each segment used in your response, indicate where the video should be embedded by using the format [Video Segment X], where X is the corresponding segment number.
 
   Video Segments:
   ${chunks.map((chunk, index) => `
@@ -68,11 +107,14 @@ const getChatCompletion = async (input: string, history: Message[], chunks: Chun
     Speaker: ${chunk.speaker}
     Transcript: ${chunk.text}
   `).join("\n\n")}
-  
+
   Question: ${input}
-  
-  Important: In your response, mention the video segments where applicable using the placeholder format [Video Segment X]. For example, if you refer to Segment 1, write [Video Segment 1] in the text. If the user's question does not need a source or is pertaining to something previously said in the conversation, you do not need to embed any video clips.
-  `
+
+  Important:
+  - Only use video segments that directly help to answer the question. 
+  - If no video segments are relevant, provide an answer without embedding any video segments.
+  - When referencing a segment, use the format [Video Segment X]. For example, if referring to Segment 1, write [Video Segment 1] in the text. If the user's question does not require a source, or the information is unrelated to the provided segments, do not embed any video clips.
+  `;
 
   const messages = [...history, {role: "user", content: prompt}].map((message) => message as OpenAI.Chat.ChatCompletionMessageParam)
   
@@ -100,11 +142,16 @@ export default async function handler(
     switch (method) {
 
       case 'POST': {
-        const chunks = await getClosestChunks(input);
+        // TODO input = getChatCompletion(input, history); find a more cohesive and rich input to encode
+        // would be cool to show all of this information on the sight for full transparency
+        const question = await getEmedQuestion(input, history);
+        
+        const chunks = await getClosestChunks(question);
 
         const text_completion = await getChatCompletion(input, history, chunks);
 
         res.status(200).json({
+          question: question,
           chunks: chunks,
           completion: text_completion
         });

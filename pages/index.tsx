@@ -58,15 +58,16 @@ export default function Home() {
   }
 
   return (
-    <main className="flex h-screen flex-col items-center justify-between">
-      <div className="w-1/2 h-full flex flex-col">
+    <main className="flex h-screen flex-col items-center justify-between bg-zinc-800 text-white font-sans">
+      <div className="h-full flex flex-col w-full">
         <div className="flex-1 py-8 overflow-y-auto" ref={scrollRef}>
+            <div className="h-64"/>
           {chat.map((mes, index) => {
             return <ChatMessage mes={mes} key={index}/>
           })}
           {loading && loadingAnimation()}
         </div>
-        <div className="my-4">
+        <div className="my-4 w-1/2 mx-auto">
           <ChatInput onSubmit={onSubmitText}/>
         </div>
       </div>

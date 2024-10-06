@@ -11,5 +11,6 @@ export type Message = {
     role: "function" | "system" | "user" | "assistant" | "tool";
     content: string;
     chunks?: Chunk[];
+    question?: string;
 }
 
