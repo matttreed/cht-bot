@@ -1,14 +1,14 @@
 {
   "version": 2,
   "functions": {
-    "api/*.py": {
-      "runtime": ">=16.0.0"
+    "api/*.ts": {
+      "runtime": "nodejs16.x"
     }
   },
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "/api/$1.py"
+      "dest": "/api/$1"
     }
   ]
 }
