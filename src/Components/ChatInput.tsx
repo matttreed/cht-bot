@@ -4,7 +4,7 @@ import { useState } from "react";
 const ChatInput = ({onSubmit}: {onSubmit: (text: string) => void}) => {
     const [inputText, setInputText] = useState("");
     return <textarea
-        className="py-3 px-6 mb-12 rounded-3xl w-full text-white bg-zinc-600 focus:outline-none"
+        className={"py-3 px-6 mb-12 rounded-3xl w-1/2 text-white bg-zinc-600 focus:outline-none"}
         value={inputText}
         onChange={(e) => setInputText(e.target.value)}
         rows={1}

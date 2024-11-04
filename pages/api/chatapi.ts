@@ -67,7 +67,9 @@ const getClosestChunks = async (input: string): Promise<Chunk[]> => {
     const questions = client.collections.get('Chunks');
 
     const result = await questions.query.nearText(input, {
-      limit:10
+      limit:10,
+      distance:0.7,
+      returnMetadata: ['distance']
     });
 
     if (result) {
@@ -79,6 +81,7 @@ const getClosestChunks = async (input: string): Promise<Chunk[]> => {
           speaker: object.properties.speaker,
           title: object.properties.title,
           youtube_id: object.properties.youtube_id,
+          distance: object.metadata?.distance || undefined
         } as Chunk
     });
     } else {

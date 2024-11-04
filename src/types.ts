@@ -5,6 +5,7 @@ export type Chunk = {
     speaker: string;
     title: string;
     youtube_id: string;
+    distance?: number;
 }
 
 export type Message = {

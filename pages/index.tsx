@@ -8,8 +8,8 @@ import {defaultConversation, sendMessage} from "@/src/chat";
 import { Message } from "@/src/types";
 import { RotatingLines } from "react-loader-spinner";
 import { sleep } from "openai/core.mjs";
-import ChatMessage from "@/src/Components/ChatMessage";
-import ChatInput from "@/src/Components/ChatInput";
+import ChatMessage from "@/src/components/ChatMessage";
+import ChatInput from "@/src/components/ChatInput";
 
 const url = '/api/chatapi';
 
@@ -58,16 +58,18 @@ export default function Home() {
   }
 
   return (
-    <main className="flex h-screen flex-col items-center justify-between bg-zinc-800 text-white font-sans">
+    <main className="h-screen bg-zinc-800 text-white font-sans">
       <div className="h-full flex flex-col w-full">
         <div className="flex-1 py-8 overflow-y-auto" ref={scrollRef}>
-            <div className="h-64"/>
-          {chat.map((mes, index) => {
-            return <ChatMessage mes={mes} key={index}/>
-          })}
-          {loading && loadingAnimation()}
+          <div className="h-64"/>
+          <div className="w-1/2 mx-auto">
+            {chat.map((mes, index) => {
+              return <ChatMessage mes={mes} key={index}/>
+            })}
+            {loading && loadingAnimation()}
+          </div>
         </div>
-        <div className="my-4 w-1/2 mx-auto">
+        <div className="pt-4 bg-zinc-700 flex justify-center">
           <ChatInput onSubmit={onSubmitText}/>
         </div>
       </div>
