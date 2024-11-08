@@ -4,12 +4,12 @@ import Image from "next/image";
 import { useEffect, useReducer, useRef, useState } from "react";
 import axios from "axios";
 import "../app/globals.css";
-import {defaultConversation, sendMessage} from "../src/chat";
-import { Message } from "../src/types";
+import {defaultConversation, sendMessage} from "@/src/chat";
+import { Message } from "@/src/types";
 import { RotatingLines } from "react-loader-spinner";
 import { sleep } from "openai/core.mjs";
-import ChatMessage from "../src/components/ChatMessage";
-import ChatInput from "../src/components/ChatInput";
+import ChatMessage from "@/src/components/ChatMessage";
+import ChatInput from "@/src/components/ChatInput";
 
 const url = '/api/chatapi';
 
