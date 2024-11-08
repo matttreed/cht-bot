@@ -14,7 +14,7 @@ const ChatInput = ({onSubmit}: {onSubmit: (text: string) => void}) => {
             target.style.height = 'auto'; // reset height to auto
             target.style.height = `${target.scrollHeight}px`; // set height based on content
         }}
-        onKeyPress={async (e) => {
+        onKeyPress={(e) => {
         if (e.key === 'Enter') {
             e.preventDefault();
             setInputText("");
